@@ -10,7 +10,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'autoprefixer-rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
-gem "devise"
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
