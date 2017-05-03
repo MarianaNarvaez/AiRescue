@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Datacarbon:</strong>
+  <%= @carbon.dataCarbon %>
+</p>
+
+<p>
+  <strong>Node:</strong>
+  <%= @carbon.node %>
+</p>
+
+<%= link_to 'Edit', edit_carbon_path(@carbon) %> |
+<%= link_to 'Back', carbons_path %>
