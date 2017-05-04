@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Carbon Monoxides</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Datamonoxide</th>
+      <th>Node</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @carbon_monoxides.each do |carbon_monoxide| %>
+      <tr>
+        <td><%= carbon_monoxide.dataMonoxide %></td>
+        <td><%= carbon_monoxide.node %></td>
+        <td><%= link_to 'Show', carbon_monoxide %></td>
+        <td><%= link_to 'Edit', edit_carbon_monoxide_path(carbon_monoxide) %></td>
+        <td><%= link_to 'Destroy', carbon_monoxide, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Carbon Monoxide', new_carbon_monoxide_path %>

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :carbons
+  resources :carbon_monoxides
   devise_for :users
   resources :temperatures
   resources :nodes
@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
     resources :temperatures, only: [:index, :create, :destroy, :update, :show]
     resources :nodes, only: [:index, :create, :destroy, :update, :show]
-    resources :carbons, only: [:index, :create, :destroy, :update, :show]
+    resources :carbon_monoxides, only: [:index, :create, :destroy, :update, :show]
   end
   root :to => 'nodes#index'
 end

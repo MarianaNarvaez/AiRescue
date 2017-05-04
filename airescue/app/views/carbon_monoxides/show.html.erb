@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Datamonoxide:</strong>
+  <%= @carbon_monoxide.dataMonoxide %>
+</p>
+
+<p>
+  <strong>Node:</strong>
+  <%= @carbon_monoxide.node %>
+</p>
+
+<%= link_to 'Edit', edit_carbon_monoxide_path(@carbon_monoxide) %> |
+<%= link_to 'Back', carbon_monoxides_path %>
