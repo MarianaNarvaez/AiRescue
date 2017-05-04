@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :carbon_dioxides
   resources :humidities
   resources :carbon_monoxides
   devise_for :users

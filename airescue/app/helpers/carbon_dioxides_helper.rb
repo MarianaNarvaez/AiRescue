@@ -1,0 +1,2 @@
+module CarbonDioxidesHelper
+end

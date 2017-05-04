@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170504151548) do
+ActiveRecord::Schema.define(version: 20170504154426) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "carbon_dioxides", force: :cascade do |t|
+    t.float    "dataDioxide"
+    t.integer  "node_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.index ["node_id"], name: "index_carbon_dioxides_on_node_id", using: :btree
+  end
 
   create_table "carbon_monoxides", force: :cascade do |t|
     t.float    "dataMonoxide"
@@ -76,6 +84,7 @@ ActiveRecord::Schema.define(version: 20170504151548) do
     t.index ["usuario"], name: "index_users_on_usuario", unique: true, using: :btree
   end
 
+  add_foreign_key "carbon_dioxides", "nodes"
   add_foreign_key "carbon_monoxides", "nodes"
   add_foreign_key "carbons", "nodes"
   add_foreign_key "humidities", "nodes"

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dataDioxide: 1.5
+  node: one
+
+two:
+  dataDioxide: 1.5
+  node: two

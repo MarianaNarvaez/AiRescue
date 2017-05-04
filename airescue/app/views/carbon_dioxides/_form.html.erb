@@ -1,0 +1,27 @@
+<%= form_for(carbon_dioxide) do |f| %>
+  <% if carbon_dioxide.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(carbon_dioxide.errors.count, "error") %> prohibited this carbon_dioxide from being saved:</h2>
+
+      <ul>
+      <% carbon_dioxide.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :dataDioxide %>
+    <%= f.text_field :dataDioxide %>
+  </div>
+
+  <div class="field">
+    <%= f.label :node_id %>
+    <%= f.text_field :node_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
