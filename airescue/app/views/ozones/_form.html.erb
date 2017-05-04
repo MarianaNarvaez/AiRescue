@@ -1,0 +1,27 @@
+<%= form_for(ozone) do |f| %>
+  <% if ozone.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ozone.errors.count, "error") %> prohibited this ozone from being saved:</h2>
+
+      <ul>
+      <% ozone.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :dataOzone %>
+    <%= f.text_field :dataOzone %>
+  </div>
+
+  <div class="field">
+    <%= f.label :node_id %>
+    <%= f.text_field :node_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

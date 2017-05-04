@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Ozones</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dataozone</th>
+      <th>Node</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ozones.each do |ozone| %>
+      <tr>
+        <td><%= ozone.dataOzone %></td>
+        <td><%= ozone.node %></td>
+        <td><%= link_to 'Show', ozone %></td>
+        <td><%= link_to 'Edit', edit_ozone_path(ozone) %></td>
+        <td><%= link_to 'Destroy', ozone, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ozone', new_ozone_path %>
