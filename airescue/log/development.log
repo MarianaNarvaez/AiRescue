@@ -10239,3 +10239,103 @@ FOREIGN KEY ("node_id")
   [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4644189275339517645)[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/ozones" for 138.121.12.14 at 2017-05-04 17:50:56 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OzonesController#index as HTML
+  Rendering ozones/index.html.erb within layouts/application
+  [1m[36mOzone Load (0.9ms)[0m  [1m[34mSELECT "ozones".* FROM "ozones"[0m
+  Rendered ozones/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 160ms (Views: 154.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/ozones/new" for 138.121.12.14 at 2017-05-04 17:51:50 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OzonesController#new as HTML
+  Rendering ozones/new.html.erb within layouts/application
+  Rendered ozones/_form.html.erb (2.7ms)
+  Rendered ozones/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 61ms (Views: 54.8ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/ozones" for 138.121.12.14 at 2017-05-04 17:52:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OzonesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tfOx224ZZUZoMywQlQ6SQq+GNKLJy5nUGjYmcE7YsDq3E5VsLPgXg5gSquYaSMZL3FprYRynK3d0R7whs96m6w==", "ozone"=>{"dataOzone"=>"10.3", "node_id"=>"1"}, "commit"=>"Create Ozone"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "ozones" ("dataOzone", "node_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["dataOzone", 10.3], ["node_id", 1], ["created_at", 2017-05-04 17:52:10 UTC], ["updated_at", 2017-05-04 17:52:10 UTC]]
+  [1m[35m (3.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-integrador-alejacolorado.c9users.io/ozones/1
+Completed 302 Found in 26ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/ozones/1" for 138.121.12.14 at 2017-05-04 17:52:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OzonesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOzone Load (0.5ms)[0m  [1m[34mSELECT  "ozones".* FROM "ozones" WHERE "ozones"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering ozones/show.html.erb within layouts/application
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered ozones/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 82ms (Views: 77.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/ozones/" for 138.121.12.14 at 2017-05-04 18:06:25 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/controllers/api/ozones_controller.rb:61: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/api/ozones_controller.rb:61: syntax error, unexpected keyword_end, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.0ms)
+Started GET "/api/ozones/" for 138.121.12.14 at 2017-05-04 18:07:20 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/controllers/api/ozones_controller.rb:60: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/api/ozones_controller.rb:60: syntax error, unexpected keyword_end, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.2ms)
+Started GET "/api/ozones/" for 138.121.12.14 at 2017-05-04 18:07:31 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:OzonesController> at /home/ubuntu/workspace/airescue/app/controllers/api/ozones_controller.rb:2)
+Processing by Api::OzonesController#index as JSON
+  [1m[36mOzone Load (0.6ms)[0m  [1m[34mSELECT "ozones".* FROM "ozones"[0m
+Completed 200 OK in 18ms (Views: 7.8ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/api/ozones/" for 138.121.12.14 at 2017-05-04 18:08:09 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/controllers/api/ozones_controller.rb:60: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/api/ozones_controller.rb:60: syntax error, unexpected keyword_end, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.8ms)
+Started GET "/api/ozones/" for 138.121.12.14 at 2017-05-04 18:08:23 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:OzonesController> at /home/ubuntu/workspace/airescue/app/controllers/api/ozones_controller.rb:2)
+Processing by Api::OzonesController#index as JSON
+  [1m[36mOzone Load (0.5ms)[0m  [1m[34mSELECT "ozones".* FROM "ozones"[0m
+Completed 200 OK in 18ms (Views: 6.6ms | ActiveRecord: 3.4ms)
+
+
