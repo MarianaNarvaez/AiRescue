@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
     resources :temperatures, only: [:index, :create, :destroy, :update, :show]
     resources :nodes, only: [:index, :create, :destroy, :update, :show]
+    resources :carbons, only: [:index, :create, :destroy, :update, :show]
   end
   root :to => 'nodes#index'
 end

@@ -31,7 +31,6 @@ class Api::TemperaturesController < ApplicationController
   # PATCH/PUT /temperatures/1.json
   def update
       if @temperature.update(temperature_params)
-        render json: @node
         render json @temperature
       else
         render json: @temperature.errors, status: :unprocessable_entity
