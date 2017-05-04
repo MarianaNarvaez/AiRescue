@@ -10136,3 +10136,90 @@ FOREIGN KEY ("node_id")
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4644189275339517645)[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/humidities" for 138.121.12.14 at 2017-05-04 15:46:33 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:HumiditiesController> at /home/ubuntu/workspace/airescue/app/controllers/api/humidities_controller.rb:2)
+Processing by Api::HumiditiesController#index as JSON
+  [1m[36mHumidity Load (0.4ms)[0m  [1m[34mSELECT "humidities".* FROM "humidities"[0m
+Completed 200 OK in 14ms (Views: 6.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/carbon_dioxides" for 138.121.12.14 at 2017-05-04 15:47:00 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CarbonDioxidesController#index as HTML
+  Rendering carbon_dioxides/index.html.erb within layouts/application
+  [1m[36mCarbonDioxide Load (0.6ms)[0m  [1m[34mSELECT "carbon_dioxides".* FROM "carbon_dioxides"[0m
+  Rendered carbon_dioxides/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 143ms (Views: 137.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/carbon_dioxides/new" for 138.121.12.14 at 2017-05-04 15:47:02 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CarbonDioxidesController#new as HTML
+  Rendering carbon_dioxides/new.html.erb within layouts/application
+  Rendered carbon_dioxides/_form.html.erb (43.6ms)
+  Rendered carbon_dioxides/new.html.erb within layouts/application (45.1ms)
+Completed 200 OK in 145ms (Views: 138.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/carbon_dioxides" for 138.121.12.14 at 2017-05-04 15:47:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CarbonDioxidesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1+0VFlhq420qn6ad/wsYuSSjhrVCC7WZAJUuqwXnaHG7nEMD9+wWswBJ04KFDSUZ8lCNVDiqbk2SYMQrPdwPnQ==", "carbon_dioxide"=>{"dataDioxide"=>"10.3", "node_id"=>"1"}, "commit"=>"Create Carbon dioxide"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "carbon_dioxides" ("dataDioxide", "node_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["dataDioxide", 10.3], ["node_id", 1], ["created_at", 2017-05-04 15:47:10 UTC], ["updated_at", 2017-05-04 15:47:10 UTC]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-integrador-alejacolorado.c9users.io/carbon_dioxides/1
+Completed 302 Found in 26ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/carbon_dioxides/1" for 138.121.12.14 at 2017-05-04 15:47:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CarbonDioxidesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCarbonDioxide Load (0.4ms)[0m  [1m[34mSELECT  "carbon_dioxides".* FROM "carbon_dioxides" WHERE "carbon_dioxides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering carbon_dioxides/show.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered carbon_dioxides/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 89ms (Views: 84.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/carbon_dioxides" for 138.121.12.14 at 2017-05-04 15:47:12 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CarbonDioxidesController#index as HTML
+  Rendering carbon_dioxides/index.html.erb within layouts/application
+  [1m[36mCarbonDioxide Load (0.4ms)[0m  [1m[34mSELECT "carbon_dioxides".* FROM "carbon_dioxides"[0m
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered carbon_dioxides/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 181ms (Views: 178.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/carbon_dioxides" for 138.121.12.14 at 2017-05-04 15:55:38 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:CarbonDioxidesController> at /home/ubuntu/workspace/airescue/app/controllers/api/carbon_dioxides_controller.rb:2)
+Processing by Api::CarbonDioxidesController#index as JSON
+  [1m[36mCarbonDioxide Load (0.5ms)[0m  [1m[34mSELECT "carbon_dioxides".* FROM "carbon_dioxides"[0m
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/api/carbon_dioxides?dataDioxide=20&node_id=1" for 138.121.12.14 at 2017-05-04 15:56:08 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::CarbonDioxidesController#create as JSON
+  Parameters: {"dataDioxide"=>"20", "node_id"=>"1", "carbon_dioxide"=>{}}
+Unpermitted parameters: format, carbon_dioxide
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "carbon_dioxides" ("dataDioxide", "node_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["dataDioxide", 20.0], ["node_id", 1], ["created_at", 2017-05-04 15:56:08 UTC], ["updated_at", 2017-05-04 15:56:08 UTC]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 93ms (Views: 1.9ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/api/carbon_dioxides" for 138.121.12.14 at 2017-05-04 15:56:12 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::CarbonDioxidesController#index as JSON
+  [1m[36mCarbonDioxide Load (0.3ms)[0m  [1m[34mSELECT "carbon_dioxides".* FROM "carbon_dioxides"[0m
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
