@@ -1,9 +1,36 @@
+<html class=FondoBlanco >
+  <head>
+  </head>
+<body>
+  	<header>
+  		<nav class="nav large-padding">
+  			<ul class="list-unstyled">
+  				<ol class="list-unstyled">
+  					<h1 class = "no-margin air col-md"
+             >
+            <%= link_to "AiRescue", root_path%>
+            </h1>
+  				</ol>
+          </ol>
+  				<ol class="var list-unstyled">
+  					<%= link_to "Variables", root_path%>
+  				</ol>
+  				<ol class="est list-unstyled">
+  					<%= link_to "Estadisticas", root_path%>			
+  			</ul>
+  		</nav>
+      <h2 class = "plaza">
+          <%= @node.name %>
+      </h2>
+    
+  	</header>
+    <%= yield %>
+  </body>
+
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @node.name %>
-</p>
+
 
 <p>
   <strong>Address:</strong>
@@ -17,8 +44,3 @@
 
 <p>
   <strong>Data:</strong>
-  <%= @node.data %>
-</p>
-
-<%= link_to 'Edit', edit_node_path(@node) %> |
-<%= link_to 'Back', nodes_path %>

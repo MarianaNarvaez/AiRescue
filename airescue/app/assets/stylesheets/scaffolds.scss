@@ -1,10 +1,33 @@
 body {
-  background-color: #fff;
+
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: verdana, aril, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+}
+
+.titulo{
+
+  font-size: 1.9em;
+  font-color: black;
+  
+}
+.FondoImagen{
+  background-image: url('./ImaLog.png');
+  
+}
+
+.cuadro{
+  
+  	position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		top:25%;
+		left:37%;
+		/*determinamos una anchura*/
+		width:700px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		/*determinamos una altura*/
 }
 
 p, ol, ul, td {
