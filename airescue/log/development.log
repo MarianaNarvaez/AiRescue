@@ -10475,3 +10475,13 @@ Processing by NodesController#show as HTML
 Completed 200 OK in 220ms (Views: 207.1ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/nodes/2" for 181.142.29.15 at 2017-05-06 05:33:48 +0000
+Cannot render console from 181.142.29.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNode Load (1.1ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 100ms (Views: 96.0ms | ActiveRecord: 1.1ms)
+
+
