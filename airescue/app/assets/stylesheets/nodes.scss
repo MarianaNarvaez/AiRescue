@@ -5,21 +5,121 @@
 html,body{
 
 	margin: 0px;
+	background-color: white;
 }
 
 .FondoBlanco{
 	background-color: white;
 }
 
-
-
 .no-margin{
 	margin: 0px;
+}
+
+.fondoTitle{
+	background-color: transparent;
+}
+
+.ancho{
+	width: 320px;
+	height: 185px;
+}
+
+.posicionBack{
+	margin: 0px;
+	position: absolute;
+	top: 30px;
+	left: 1280px;
+	background-image: url('./atras.png');
+	background-size: 100%;
+	//border: 3px;
+  	width: 40px;
+  	height: 40px;
+	
+}
+
+.agregarNodo{
+	margin: 0px;
+	position: absolute;
+	top: 30px;
+	left: 1157px;
+	background-image: url('./mas.png');
+	background-size: 100%;
+	//border: 3px;
+  	width: 30px;
+  	height: 30px;
+	
+}
+
+.letraNodo{
+	margin: 0px;
+	text-align: center;
+	color: rgb(255,255,255); ;
+	//border: 3px;
+    font-size: 1.8em;
+	
+}
+
+.cerrarSesion{
+	margin: 0px;
+	position: absolute;
+	top: 35px;
+	left: 1227px;
+	color: rgb(0,0,0);
+	//border: 3px;
+    font-size: 1.2em;
+	
+}
+
+.editar{
+	margin: 0px;
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	background-image: url('./lapiz.png');
+	background-size: 100%;
+	//border: 3px;
+  	width: 20px;
+  	height: 20px;
+	
+}
+
+
+.borrar{
+	margin: 0px;
+	position: absolute;
+	top: 20px;
+	left: 95px;
+	background-image: url('./basura.png');
+	background-size: 100%;
+	//border: 3px;
+  	width: 20px;
+  	height: 20px;
+}
+
+.imagenNodo{
+	margin: 0px;
+	background-image: url('./alpujarra.jpg');
+	background-size: 100%;
+	border: 5.2px;
+	
+}
+
+.cuadro2{
+  	position: absolute;
+	/*nos posicionamos en el centro del navegador*/
+	top:25%;
+	left:38%;
+	/*determinamos una anchura*/
+	width: 360px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	/*determinamos una altura*/
 }
 
 .air{
 	font-weight: 30px;
 	font-size: 3.2em;
+	color:rgb(0,0,0); 
 	margin: 0px;
 	position: absolute;
 	top: 30px;
@@ -27,12 +127,12 @@ html,body{
 }
 
 .plaza{
-	top: 35px;
+	position: absolute;
+	top: 90px;
 	left: 30px;
 	font-weight: 15px;
 	font-size: 2.2em;
 	color:rgb(50,200,100); 
-	position: relative;
 	margin: 0px;
 }
 

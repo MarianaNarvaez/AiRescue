@@ -1,5 +1,7 @@
-<h1>New Node</h1>
+<h1 class = "fondoTitle air"><%= link_to 'AiRescue', nodes_path %></h1>
 
-<%= render 'form', node: @node %>
+    <%= render 'form', node: @node, class: "fondoTitle"  %>
 
-<%= link_to 'Back', nodes_path %>
+    <%= link_to '', nodes_path, class: "posicionBack" %>
+    
+

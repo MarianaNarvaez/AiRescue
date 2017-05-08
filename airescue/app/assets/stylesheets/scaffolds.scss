@@ -7,10 +7,18 @@ body {
   margin: 33px;
 }
 
+a,a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+.fondoTitle{
+	background-color: transparent;
+}
+
 .titulo{
 
   font-size: 1.9em;
-  font-color: black;
   
 }
 .FondoImagen{
@@ -18,16 +26,20 @@ body {
   
 }
 
+
 .cuadro{
-  
   	position: absolute;
 		/*nos posicionamos en el centro del navegador*/
 		top:25%;
 		left:37%;
 		/*determinamos una anchura*/
-		width:700px;
+		width: 360px;
 		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
 		/*determinamos una altura*/
+}
+
+.tam{
+  resize: none;
 }
 
 p, ol, ul, td {
