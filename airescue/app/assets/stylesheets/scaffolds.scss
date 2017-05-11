@@ -32,10 +32,27 @@ a,a:visited{
 		/*nos posicionamos en el centro del navegador*/
 		top:25%;
 		left:37%;
+		//border-style: solid;
 		/*determinamos una anchura*/
-		width: 360px;
+		width: 720px;
+		height: 800px;
 		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
 		/*determinamos una altura*/
+}
+
+.check{
+    position: relative;
+		/*nos posicionamos en el centro del navegador*/
+		top:3px;
+		left:23px;
+}
+
+.btnLogin{
+    position: relative;
+		/*nos posicionamos en el centro del navegador*/
+		top: 0px;
+		left: 0px;
+  
 }
 
 .tam{

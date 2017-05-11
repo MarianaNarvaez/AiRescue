@@ -22,14 +22,15 @@
                     <%= f.password_field :password, autocomplete: "off", class:"form-control placeholder='Contraseña' " %>
                   </div>
                   <% if devise_mapping.rememberable? -%>
-                  <div class = "form-group checkbox">
+                  <div class = "form-group checkbox check">
                     <%= f.check_box :remember_me %>
                     <%= f.label :remember_me %>
+                  </div>   
 
-                <% end -%>
+                  <% end -%>
                 <br />
                 <div class="actions">
-                  <%= f.submit "Log in",class:"btn btn-lg btn-success btn-block" %>
+                  <%= f.submit "Log in",class:"form-control btn btn-lg btn-success btnLogin" %>
                 </div>
                 <% end %>
   

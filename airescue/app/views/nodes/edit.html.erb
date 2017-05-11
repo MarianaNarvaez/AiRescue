@@ -1,6 +1,9 @@
-<h1> Editar nodo </h1>
+<h1 class = "fondoTitle air"><%= link_to 'Editar Nodo', edit_node_path %></h1> 
+
+<p class = "plaza"> <%= @node.name %> </p> 
 
 <%= render 'form', node: @node %>
 
-<%= link_to 'Show', @node %> |
-<%= link_to 'Back', nodes_path %>
+<%= link_to '', @node, class:"botonShowEditar"  %> 
+<%= link_to '', nodes_path, class:"posicionBackEdit" %>
+

@@ -1,4 +1,4 @@
- <html class="FondoBlanco fondoTitle">
+<html class="FondoBlanco fondoTitle">
   <head>
   </head>
 <body>
@@ -31,47 +31,87 @@
 <p id="notice"><%= notice %></p>
 
 
-
-<p>
-  <strong>Address:</strong>
-  <%= @node.address %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @node.description %>
-</p>
-
-<p>
-  <strong>Data:</strong>
-  <%= @node.data %>
-</p>
-
-<%= link_to 'Edit', edit_node_path(@node) %> |
-<%= link_to 'Back', nodes_path %>
-
-
 </br>
 </br>
 </br>
-<div class="field oval-half-red1">
+
+<div class="container colorFondoBoton">
+  <button type="button" class="btn btn-lg botonInfo" data-toggle="modal" data-target="#myModal">''</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><%= @node.name %></h4>
+        </div>
+        <div class="modal-body">
+            <div class= "row tam">
+                <div class="negrita">&#160 &#160 &#160 &#160 &#160 Direccion: &#160 &#160 &#160 &#160 &#160 &#160 &#160</div>
+                <div><%= @node.address %></div>
+            </div>    
+            <div class= "row tam">
+                <div class="negrita">&#160 &#160 &#160 &#160 &#160 Descripcion: &#160 &#160 &#160 &#160 &#160 </div>
+                <div><%= @node.description %></div>
+            </div>
+            <div class= "row tam">
+                <div class="negrita">&#160 &#160 &#160 &#160 &#160 Dato: &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 </div>
+                <div> <%= @node.data %></div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="oval-half-red1">
+    <%= label :dato ,class:"form-control" %>
+</div>
+<div class="carbono">
+       Dioxido de Carbono
+</div>
+
+<div class="oval-half-red2">
     <%= label :dato, placeholder: "Escriba",class:"form-control" %>
-</div
-<div class="field oval-half-red">
+</div>
+<div class="azufre">
+       Dioxido de Azufre
+</div>
+
+<div class="oval-half-red3">
     <%= label :dato, placeholder: "Escriba",class:"form-control" %>
-</div
-<div class="field oval-half-red">
-    <%= text_area :dato, placeholder: "Escriba",class:"form-control" %>
-</div
-<div class="field oval-half-red">
-    <%= text_area :dato, placeholder: "Escriba",class:"form-control" %>
-</div
-<div class="field oval-half-red">
-    <%= text_area :dato, placeholder: "Escriba",class:"form-control" %>
-</div
-<div class="field oval-half-red">
-    <%= text_area :dato, placeholder: "Escriba",class:"form-control" %>
-</div
+</div>
+<div class="nitrogeno">
+       Dioxido de Nitrogeno
+</div>
+<div class="oval-half-red4">
+    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
+</div>
+<div class="ozono">
+       Ozono
+</div>
+<div class="oval-half-red5">
+    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
+</div>
+<div class="temperatura">
+       Temperatura
+</div>
+
+<div class="oval-half-red6">
+    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
+</div>
+<div class="humedad">
+       Humedad
+</div>
+
+<%= link_to 'Edit', edit_node_path(@node) , class:"btn btn-lg btn-success botonedit"%>
+<%= link_to 'Back', nodes_path, class:"btn btn-lg btn-success botonback" %>
 
 
 </html>
+
