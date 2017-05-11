@@ -11,6 +11,12 @@ class NodesController < ApplicationController
   # GET /nodes/1
   # GET /nodes/1.json
   def show
+    @dioxide = CarbonDioxide.where(node_id: params[:id]).last
+    @monoxide = CarbonMonoxide.where(node_id: params[:id]).last
+    @ozone = Ozone.where(node_id: params[:id]).last
+    @humed = Humidity.where(node_id: params[:id]).last
+    @temp = Temperature.where(node_id: params[:id]).last
+    
   end
 
   # GET /nodes/new

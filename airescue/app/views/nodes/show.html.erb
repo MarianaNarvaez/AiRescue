@@ -1,4 +1,6 @@
 <html class="FondoBlanco fondoTitle">
+
+<meta http-equiv="refresh" content="5"> 
   <head>
   </head>
 <body>
@@ -68,46 +70,52 @@
   </div>
 </div>
 
+<div class="dioxido">
+       Dióxido de Carbono
+</div>
 
 <div class="oval-half-red1">
-    <%= label :dato ,class:"form-control" %>
-</div>
-<div class="carbono">
-       Dioxido de Carbono
+    <%= @dioxide.dataDioxide %>  ppm
 </div>
 
-<div class="oval-half-red2">
-    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
+<div class="monoxido">
+      Monóxido de Carbono
 </div>
-<div class="azufre">
-       Dioxido de Azufre
+<div class="oval-half-red2">
+    <%= @monoxide.dataMonoxide %> ppm
+</div>
+
+<div class="ozono1">
+       Ozono
 </div>
 
 <div class="oval-half-red3">
-    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
+    <%= @ozone.dataOzone %> ppm
 </div>
-<div class="nitrogeno">
-       Dioxido de Nitrogeno
+
+<div class="humedad1">
+       Humedad
 </div>
 <div class="oval-half-red4">
-    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
+    <%= @humed.dataHumidity %> %
 </div>
-<div class="ozono">
-       Ozono
-</div>
-<div class="oval-half-red5">
-    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
-</div>
+
 <div class="temperatura">
        Temperatura
 </div>
 
+<div class="oval-half-red5">
+    <%= @temp.dateTemperature %>  °C
+</div>
+
+<div class="hcho">
+       HCHO
+</div>
 <div class="oval-half-red6">
-    <%= label :dato, placeholder: "Escriba",class:"form-control" %>
+    <%= @temp.dateTemperature %>  ppm
 </div>
-<div class="humedad">
-       Humedad
-</div>
+
+
 
 <% if user_signed_in? %>
     <%= link_to 'Edit', edit_node_path(@node) , class:"btn btn-lg btn-success botonedit"%>
