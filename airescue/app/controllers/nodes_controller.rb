@@ -4,7 +4,7 @@ class NodesController < ApplicationController
   # GET /nodes
   # GET /nodes.json
   def index
-    @nombreNodes = "AiRescue"
+    @nombreNodes = "Iniciar Sesion"
     @nodes = Node.all
   end
 
@@ -21,13 +21,15 @@ class NodesController < ApplicationController
 
   # GET /nodes/new
   def new
-    @nombreNodes = "Nuevo Nodo"
+    @nombreNodes = "Crear Nodo"
+    @nombreBotones = "Guardar"
     @node = Node.new
   end
 
   # GET /nodes/1/edit
   def edit
     @nombreNodes = "Editar Nodo"
+    @nombreBotones = "Guardar"
   end
 
   # POST /nodes
