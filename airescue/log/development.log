@@ -17764,3 +17764,1963 @@ Processing by NodesController#index as HTML
 Completed 200 OK in 294ms (Views: 204.7ms | ActiveRecord: 82.1ms)
 
 
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 01:26:02 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (6.9ms)
+  Rendered nodes/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 121ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 181.62.145.19 at 2017-05-11 01:26:24 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1LiQhPoFSyshpGIbGJCbSLDx07cit1YDTTSE1SIGEYn9bv71DnVQrh1j9D+7zXzg3VFlL97ac7rW559tprASzw=="}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 13ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 01:26:24 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 109ms (Views: 105.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 01:26:29 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 182ms (Views: 180.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 01:42:46 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (3.1ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (132.7ms)
+Completed 200 OK in 240ms (Views: 137.8ms | ActiveRecord: 97.0ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 01:42:49 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (96.3ms)
+Completed 200 OK in 385ms (Views: 218.5ms | ActiveRecord: 141.5ms)
+
+
+Started POST "/users/sign_in" for 181.62.145.19 at 2017-05-11 01:42:52 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A84VhcS8YA+9dwiYhuOBYsOzQHgLdzinENb2IPYztyGyz7bQhlPaarhODx04eBvODTKyMME5auPjGWgXPpHTsQ==", "user"=>{"email"=>"mnarvae3@eafit.edu.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mnarvae3@eafit.edu.co"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.1ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-05-11 01:42:52 UTC], ["last_sign_in_at", 2017-05-11 01:16:05 UTC], ["sign_in_count", 14], ["updated_at", 2017-05-11 01:42:52 UTC], ["id", 1]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 172ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 01:42:52 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (6.0ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 89ms (Views: 79.9ms | ActiveRecord: 6.4ms)
+
+
+Started DELETE "/users/sign_out" for 181.62.145.19 at 2017-05-11 01:44:27 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0Zfk/un5g2JjmRpxEAsHNlBwszIcScMbMEhWQCGHvucXvnMExy4EYhlDgb9xK563W2ullkMYN8uIgBzbdlMovg=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 76ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 01:44:28 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 157ms (Views: 146.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 01:44:31 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 94ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 181.62.145.19 at 2017-05-11 01:44:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Mn1iWvUKtj9sdgDGb+H2+fLaRh+1RVivnX07LO3jy0lYjStj1gGRlE+SE9i7JqfiHYVLXih0Nwm7FfYRiQRNg==", "user"=>{"email"=>"mnarvae3@eafit.edu.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mnarvae3@eafit.edu.co"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-05-11 01:44:33 UTC], ["last_sign_in_at", 2017-05-11 01:42:52 UTC], ["sign_in_count", 15], ["updated_at", 2017-05-11 01:44:33 UTC], ["id", 1]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 172ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 01:44:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 105ms (Views: 101.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:04:09 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (54.2ms)
+Completed 200 OK in 170ms (Views: 160.5ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:05:04 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 269ms (Views: 265.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:07:38 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 311ms (Views: 307.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:14:51 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (1.3ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 251ms (Views: 247.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:18:14 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.7ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 5106ms (Views: 5102.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:18:57 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 271ms (Views: 266.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:19:05 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.7ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 182ms (Views: 178.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:19:08 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 118ms (Views: 115.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:19:22 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 92ms (Views: 89.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:19:24 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 218ms (Views: 215.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 02:19:30 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 97ms (Views: 94.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 02:20:13 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 107ms (Views: 103.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 02:20:14 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 228ms (Views: 225.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 02:20:16 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 81ms (Views: 78.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 02:20:40 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 223ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:20:41 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 507ms (Views: 499.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 02:21:28 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 72ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:21:28 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (1.9ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 1043ms (Views: 1031.2ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:21:36 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 178ms (Views: 175.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 02:21:43 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (18.0ms)
+  Rendered nodes/new.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 163ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 02:23:41 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (8.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 69ms (ActiveRecord: 22.9ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:23:42 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (12.9ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 493ms (Views: 472.2ms | ActiveRecord: 17.1ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:27:19 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 149ms (Views: 147.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 02:27:36 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (16.0ms)
+  Rendered nodes/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 131ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 02:31:46 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (5.3ms)
+  Rendered nodes/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 275ms (Views: 273.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:31:49 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 89ms (Views: 86.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:33:43 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 6154ms (Views: 6151.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:34:35 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (1.0ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 163ms (Views: 160.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:36:20 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 89ms (Views: 87.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:37:18 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (63.9ms)
+Completed 200 OK in 217ms (Views: 214.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:46:40 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (5.9ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 135ms (Views: 122.3ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 02:52:10 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 253ms (Views: 250.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 02:52:16 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 116ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 02:52:22 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 83ms (Views: 81.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:28 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 83ms (Views: 80.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:30 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 79ms (Views: 76.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:32 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 78ms (Views: 74.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.4ms)
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (67.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 181ms (Views: 178.2ms | ActiveRecord: 0.3ms)
+
+
+Completed 200 OK in 159ms (Views: 87.1ms | ActiveRecord: 67.4ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:34 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 76ms (Views: 73.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 02:52:34 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:02:32 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 03:02:37 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 82ms (Views: 79.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 03:02:44 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:02:48 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 175ms (Views: 171.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:03:40 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 76ms (Views: 73.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:06:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 87ms (Views: 84.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:14:52 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 3467ms (Views: 3464.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/show.html.erb" for 181.62.145.19 at 2017-05-11 03:15:09 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/show.html.erb"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [108 times] (49.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (104.6ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:17:27 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 109ms (Views: 106.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:23:35 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 3839ms (Views: 3836.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:33:01 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 3963ms (Views: 3961.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:33:10 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:34:36 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 83ms (Views: 80.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:35:09 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 127ms (Views: 125.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:35:17 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 73ms (Views: 70.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:36:22 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 133ms (Views: 131.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:36:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 188ms (Views: 184.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:51:22 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  Rendered nodes/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:13: syntax error, unexpected keyword_do_block
+...r.append=  link_to '', node, do @output_buffer.safe_append='
+...                               ^
+/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:59: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/nodes/index.html.erb:13: syntax error, unexpected keyword_do_block
+app/views/nodes/index.html.erb:59: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.4ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:51:56 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  Rendered nodes/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:13: syntax error, unexpected keyword_do_block
+...uffer.append=  link_to node, do @output_buffer.safe_append='
+...                               ^
+/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:59: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/nodes/index.html.erb:13: syntax error, unexpected keyword_do_block
+app/views/nodes/index.html.erb:59: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.2ms)
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:53:47 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 79ms (Views: 76.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:53:52 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 183ms (Views: 180.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:53:54 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 85ms (Views: 82.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 03:54:24 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  Rendered nodes/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:13: syntax error, unexpected keyword_do_block
+....append=  link_to node_path, do @output_buffer.safe_append='
+...                               ^
+/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:59: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/nodes/index.html.erb:13: syntax error, unexpected keyword_do_block
+app/views/nodes/index.html.erb:59: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.1ms)
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 03:56:00 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  Rendered nodes/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:23: syntax error, unexpected keyword_do_block
+....append=  link_to node_path, do @output_buffer.safe_append='
+...                               ^
+/home/ubuntu/workspace/airescue/app/views/nodes/index.html.erb:60: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/nodes/index.html.erb:23: syntax error, unexpected keyword_do_block
+app/views/nodes/index.html.erb:60: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.7ms)
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 03:57:10 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"nodes"} missing required keys: [:id]):
+    20:                 class: "editar field" %> <br> <%= link_to '', node, class: "borrar field", 
+    21:                  method: :delete, data: { confirm: 'Are you sure?' } %></div>
+    22:               <%else%>
+    23:                   <%= link_to node_path do %>
+    24:                       <div class="ancho imagenNodo btn botonNodo letraNodo"><%= node.name %> <br> <%= node.data %> <br>  </div>
+    25:                   <%end%>
+    26:                 <%end%>
+  
+app/views/nodes/index.html.erb:23:in `block in _app_views_nodes_index_html_erb__1802819493452475521_70246456474980'
+app/views/nodes/index.html.erb:11:in `_app_views_nodes_index_html_erb__1802819493452475521_70246456474980'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.4ms)
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 03:57:41 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 88ms (Views: 85.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:57:44 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 68ms (Views: 65.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 03:58:48 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 03:59:54 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.7ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 261ms (Views: 258.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 03:59:58 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 99ms (Views: 96.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 04:00:07 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 148ms (Views: 144.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 04:00:10 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 78ms (Views: 75.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:03:43 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 199ms (Views: 196.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 04:03:47 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes/2" for 181.62.145.19 at 2017-05-11 04:03:50 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 77ms (Views: 73.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/3" for 181.62.145.19 at 2017-05-11 04:03:52 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 82ms (Views: 78.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nodes/6" for 181.62.145.19 at 2017-05-11 04:03:56 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 94ms (Views: 90.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:05:09 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 4151ms (Views: 4149.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:05:49 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (8.1ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 103ms (Views: 92.4ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 04:05:52 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 118ms (Views: 113.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/6" for 181.62.145.19 at 2017-05-11 04:05:55 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 104ms (Views: 101.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes/3" for 181.62.145.19 at 2017-05-11 04:06:08 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 89ms (Views: 86.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes/8" for 181.62.145.19 at 2017-05-11 04:06:17 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 89ms (Views: 86.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 04:06:43 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 98ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 181.62.145.19 at 2017-05-11 04:06:50 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"taoInLUKnYQ1dm1MB1iLGfV84ZWoyKGCUZT91nlVgmqar1r4gb2XkJ3affTT1eo4vSnj6M6I8n3fHvo+h24e2g==", "user"=>{"email"=>"mnarvae3@eafit.edu.co", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (13.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mnarvae3@eafit.edu.co"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.9ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", 2017-05-11 04:06:50 UTC], ["updated_at", 2017-05-11 04:06:50 UTC], ["id", 1]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 16], ["current_sign_in_at", 2017-05-11 04:06:50 UTC], ["last_sign_in_at", 2017-05-11 01:44:33 UTC], ["updated_at", 2017-05-11 04:06:50 UTC], ["id", 1]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 343ms (ActiveRecord: 28.7ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 04:06:50 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 108ms (Views: 104.2ms | ActiveRecord: 1.5ms)
+
+
+Started DELETE "/users/sign_out" for 181.62.145.19 at 2017-05-11 04:08:54 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+NameError (undefined local variable or method `index' for #<ActionDispatch::Routing::Mapper:0x007fc719845e08>):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.3ms)
+Started GET "/users/sign_out" for 181.62.145.19 at 2017-05-11 04:09:11 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [108 times] (44.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.9ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:09:17 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/nodes"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [108 times] (32.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (154.2ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:09:32 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/nodes"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [108 times] (31.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.2ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:09:49 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 139ms (Views: 111.8ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:11:11 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/nodes"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [108 times] (51.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (113.6ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:13:27 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/nodes"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [100 times] (37.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.2ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:14:47 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/nodes"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [100 times] (40.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.2ms)
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:14:59 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (59.8ms)
+Completed 200 OK in 174ms (Views: 161.2ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:15:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 71ms (Views: 69.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 04:15:39 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.8ms)
+  Rendered nodes/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 77ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:16:34 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 151ms (Views: 145.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 04:33:24 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 692ms (Views: 665.7ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:33:36 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 197ms (Views: 193.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 04:33:42 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 148ms (Views: 145.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/nodes/" for 181.62.145.19 at 2017-05-11 04:34:10 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 120ms (Views: 117.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/nodes/index" for 181.62.145.19 at 2017-05-11 04:34:15 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 5ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Node with 'id'=index):
+  
+app/controllers/nodes_controller.rb:67:in `set_node'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.8ms)
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 04:34:33 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (25.4ms)
+  Rendered nodes/new.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 219ms (Views: 217.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:34:37 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 92ms (Views: 89.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 04:34:42 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.4ms)
+  Rendered nodes/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:34:45 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 71ms (Views: 68.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 04:34:48 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (3.7ms)
+  Rendered nodes/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 04:34:50 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/sign_out" for 181.62.145.19 at 2017-05-11 04:35:03 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TX3EP1zGWpMsiWFDZX9Y/g54sk2BeAUb0NNrpxiRJYSoWzXse9msBiG7hua+YnDL9p4SQ8EtzL1sye2OvUUpYQ=="}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", nil], ["updated_at", 2017-05-11 04:35:03 UTC], ["id", 1]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 49ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 04:35:04 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 277ms (Views: 274.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 04:41:15 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 92ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 181.62.145.19 at 2017-05-11 04:41:17 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NPvYSQKfFd00yJW6OZCo1dq6Z7CZVAseN1uiTy65fsnqXrCmdV7toorXB0wCkyuyooCcJp3aiU2gfeHtHz9XiQ==", "user"=>{"email"=>"mnarvae3@eafit.edu.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mnarvae3@eafit.edu.co"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-05-11 04:41:17 UTC], ["last_sign_in_at", 2017-05-11 04:06:50 UTC], ["sign_in_count", 17], ["updated_at", 2017-05-11 04:41:17 UTC], ["id", 1]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 197ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 04:41:18 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 84ms (Views: 81.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/nodes/edit" for 181.62.145.19 at 2017-05-11 04:41:35 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Node with 'id'=edit):
+  
+app/controllers/nodes_controller.rb:67:in `set_node'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.2ms)
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 04:41:56 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 170ms (Views: 167.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/nodes/1/edit" for 181.62.145.19 at 2017-05-11 04:41:59 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/edit.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.8ms)
+  Rendered nodes/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 68ms (Views: 65.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes/1/edit" for 181.62.145.19 at 2017-05-11 04:43:36 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/edit.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.6ms)
+  Rendered nodes/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 04:49:55 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 04:49:55 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 79ms (Views: 76.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 04:50:04 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 04:50:04 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 84ms (Views: 81.6ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/users/sign_out" for 181.62.145.19 at 2017-05-11 04:50:07 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wdpXnRAk1SBFmvnOolLY3DxbgTNUx+WkcmeTu/9xYQfD8p9w137sdrlWxRctQg/7rw62O1kpLK7aCW31ZS5v5Q=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 04:50:07 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 04:50:10 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 05:01:32 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (62.6ms)
+Completed 200 OK in 162ms (Views: 144.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 05:01:42 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 181.62.145.19 at 2017-05-11 05:01:48 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yuOzu89y6tMuL80J09yV38jOB4NDheCNEorEqmFDTt6u9uaMVOFljawQJOv01DCDXoXpTJeQGQD2PBmfOiVpQg==", "user"=>{"email"=>"mnarvae3@eafit.edu.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mnarvae3@eafit.edu.co"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-05-11 05:01:48 UTC], ["last_sign_in_at", 2017-05-11 04:41:17 UTC], ["sign_in_count", 18], ["updated_at", 2017-05-11 05:01:48 UTC], ["id", 1]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 163ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 05:01:50 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 155ms (Views: 147.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 05:01:52 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (3.2ms)
+  Rendered nodes/new.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for "Nuevo Nodo":String):
+     5:       	<div class="panel-heading">
+     6:       		<div class="panel panel-default">
+     7:   			  	<div class="panel-heading">
+     8:                 <h2 class="panel-title titulo"><%= @nombreNodes.name %></h2>
+     9:             </div>
+    10:             <div class="panel-body">
+    11:               <fieldset>
+  
+app/views/nodes/_form.html.erb:8:in `_app_views_nodes__form_html_erb___1771923009100169740_69839227139380'
+app/views/nodes/new.html.erb:3:in `_app_views_nodes_new_html_erb__3393285683152031272_69839121231020'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.7ms)
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 05:02:16 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.7ms)
+  Rendered nodes/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 05:02:38 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 71ms (Views: 68.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 05:02:45 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/nodes/1/edit" for 181.62.145.19 at 2017-05-11 05:02:47 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/edit.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.6ms)
+  Rendered nodes/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 05:06:28 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 171ms (Views: 168.3ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/users/sign_out" for 181.62.145.19 at 2017-05-11 05:06:30 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"X9clmCc976/tpH3UoiByeMq0zHKmd4e4FcRua4Ja3mqKXws8S9mP0iFX2cJW7FCUlwRR/Lx8oPyXVNmOHGCApw=="}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 05:06:30 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 05:07:46 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nodes/1" for 181.62.145.19 at 2017-05-11 05:08:24 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 05:09:32 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 181.62.145.19 at 2017-05-11 05:09:48 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 181.62.145.19 at 2017-05-11 05:10:26 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iJUgF0dHaFB5XMKUUCGTfWtO2FTb+D4s3tBPVp7Sto5w5hMFtqPYSc+XJzriu4nV6RX0sgro+QkHZqlVAYcC9A==", "user"=>{"email"=>"mnarvae3@eafit.edu.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mnarvae3@eafit.edu.co"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-05-11 05:10:26 UTC], ["last_sign_in_at", 2017-05-11 05:01:48 UTC], ["sign_in_count", 19], ["updated_at", 2017-05-11 05:10:26 UTC], ["id", 1]]
+  [1m[35m (30.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://airescue-mariananarvaez.c9users.io/
+Completed 302 Found in 192ms (ActiveRecord: 32.2ms)
+
+
+Started GET "/" for 181.62.145.19 at 2017-05-11 05:10:27 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 85ms (Views: 82.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 05:16:04 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.4ms)
+  Rendered nodes/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 05:16:06 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (2.4ms)
+  Rendered nodes/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 89ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 05:16:09 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 69ms (Views: 66.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 05:18:06 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 4817ms (Views: 4814.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 05:18:15 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (3.0ms)
+  Rendered nodes/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 120ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 05:18:17 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 185ms (Views: 181.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 05:18:20 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (3.4ms)
+  Rendered nodes/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 222ms (Views: 220.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nodes" for 181.62.145.19 at 2017-05-11 05:18:22 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered nodes/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 99ms (Views: 95.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/nodes/new" for 181.62.145.19 at 2017-05-11 05:18:38 +0000
+Cannot render console from 181.62.145.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#new as HTML
+  Rendering nodes/new.html.erb within layouts/application
+  Rendered nodes/_form.html.erb (3.3ms)
+  Rendered nodes/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+

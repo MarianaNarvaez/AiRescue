@@ -13,7 +13,7 @@
   				</ol>
           </ol>
   				<ol class="var list-unstyled">
-  					<%= link_to "Variables", root_path%>
+  					<%= link_to "Variables", node_path%>
   				</ol>
   				<ol class="est list-unstyled">
   					<%= link_to "Estadisticas", root_path%>			
@@ -109,9 +109,12 @@
        Humedad
 </div>
 
-<%= link_to 'Edit', edit_node_path(@node) , class:"btn btn-lg btn-success botonedit"%>
-<%= link_to 'Back', nodes_path, class:"btn btn-lg btn-success botonback" %>
-
+<% if user_signed_in? %>
+    <%= link_to 'Edit', edit_node_path(@node) , class:"btn btn-lg btn-success botonedit"%>
+    <%= link_to 'Back', nodes_path, class:"btn btn-lg btn-success botonback" %>
+<%else%>
+    <%= link_to 'Back', nodes_path, class:"btn btn-lg btn-success botonback" %>
+<%end%>
 
 </html>
 
