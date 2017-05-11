@@ -11,52 +11,46 @@
       google.charts.setOnLoadCallback(drawChart);
       google.charts.setOnLoadCallback(drawOther);
 
-      // Callback that creates and populates a data table,
-      // instantiates the pie chart, passes in the data and
-      // draws it.
-      function drawChart() {
-
-        // Create the data table.
+      // draws dayli graphics
+      function drawChart() { 
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'HoraDelDia');
         data.addColumn('number', 'Grados');
         data.addRows([
-          ['6:00 am', 18],
-          ['8:00 am', 22],
-          ['10:00 am', 23],
-          ['12:00 am', 19],
-          ['2:00 pm', 25]
+          <% @temperatures.each do |temperature|%>
+          ['<%= temperature.created_at.strftime("%H:00")%>', <%= temperature.dateTemperature.to_int%>],
+          <%end%>
         ]);
-
         // Set chart options
-        var options = {'title':'Reporte diario Nodo Parque Berrio',
+        var options = {'title':'Reporte diario Nodo <%= Node.find_by(id: Temperature.where(node_id:1)).name%>',
                        'width':400,
-                       'height':300};
+                       'height':300,
+                       hAxis: {title: 'Tiempo'},
+                       vAxis: {title: 'Grados'}};
 
         // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.LineChart (document.getElementById('chart_div'));
+        var chart = new google.visualization.LineChart (document.getElementById('chart_hora_temp'));
         chart.draw(data, options);
       }
       
+      // draws weekly graphics
       function drawOther() {
         var data = new google.visualization.DataTable();
         data.addColumn('string','Dia');
         data.addColumn('number','Grados');
         data.addRows([
-          ['Lunes', 18],
-          ['Martes', 22],
-          ['Miercoles', 24],
-          ['Jueves', 18],
-          ['Viernes', 26],
-          ['Sabado', 19],
-          ['Domingo', 18]
+           <% @temperatures.each do |temperature|%>
+          ['<%= temperature.created_at.strftime("%a")%>', <%= temperature.dateTemperature.to_int%>],
+          <%end%>
         ]);
           
-        var options = {'title':'Reporte Semanal Nodo Parque Berrio',
+        var options = {'title':'Reporte Semanal Nodo <%= Node.find_by(id: Temperature.where(node_id:1)).name%>',
                        'width':400,
-                       'height':300};
+                       'height':300,
+                       hAxis: {title: 'Tiempo'},
+                       vAxis: {title: 'Grados'}};
                        
-        var chart = new google.visualization.LineChart(document.getElementById('chart_div_second'));
+        var chart = new google.visualization.LineChart(document.getElementById('chart_week_temp'));
           chart.draw(data, options);
       }
       
@@ -64,10 +58,11 @@
   </head>
 
   <body>
+    <h3>Temperatura</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_div"></div></td>
-        <td><div id="chart_div_second"></div></td>
+        <td><div id="chart_hora_temp"></div></td>
+        <td><div id="chart_week_temp"></div></td>
       </tr>
     </table>
   </body>

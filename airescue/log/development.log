@@ -24675,3 +24675,1738 @@ Processing by NodesController#show as HTML
 Completed 200 OK in 102ms (Views: 61.3ms | ActiveRecord: 34.8ms)
 
 
+Started GET "/" for 138.121.12.14 at 2017-05-11 17:51:49 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (5.0ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 4660ms (Views: 4628.5ms | ActiveRecord: 12.4ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:09 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (105.5ms)
+Completed 200 OK in 202ms (Views: 181.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:09 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:11 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 121ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:13 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:15 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:16 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:17 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:19 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:20 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:21 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:22 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 109ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:24 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (5.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 204ms (Views: 202.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:26 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 168ms (Views: 165.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:28 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (147.8ms)
+Completed 200 OK in 261ms (Views: 253.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:29 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (8.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 227ms (Views: 221.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:31 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 114ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:32 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 116ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:34 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 239ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:35 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:36 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:38 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:39 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 110ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:40 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:42 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:43 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 119ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:44 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 93ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:45 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:46 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:48 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 84ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:49 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 110ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:50 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 100ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:52 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:53 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:54 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:55 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 93ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:57 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:57 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:52:59 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:53:00 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (15.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 127ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:53:02 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:53:03 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 84ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 17:53:04 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 17:53:20 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 107ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 138.121.12.14 at 2017-05-11 19:51:22 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.8ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 217ms (Views: 214.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:44 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 99ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:44 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 74ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:46 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:48 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 114ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:50 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 99ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:51 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 91ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:53 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 184ms (Views: 181.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:54 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 90ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:56 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 94ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:57 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 81ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:51:58 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:00 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 81ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:01 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 74ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:02 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:04 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:05 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:07 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 70ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:08 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 138.121.12.14 at 2017-05-11 19:52:09 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 19:52:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 138.121.12.14 at 2017-05-11 19:52:25 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 72ms (Views: 69.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 19:52:55 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 19:52:55 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 19:54:56 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/controllers/graphics_controller.rb:4: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/graphics_controller.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.1ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 19:55:13 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/views/graphics/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/ubuntu/workspace/airescue/app/views/graphics/index.html.erb:79: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/graphics/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/graphics/index.html.erb:79: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.4ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 19:55:46 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (1.2ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (2.8ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (2.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (52.7ms)
+Completed 200 OK in 150ms (Views: 125.4ms | ActiveRecord: 23.1ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 19:57:34 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.9ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 112ms (Views: 108.1ms | ActiveRecord: 2.1ms)
+
+
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1[0m  [["node_id", 1]]
+  [1m[36mTemperature Load (1.1ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1[0m  [["node_id", 2]]
+Started GET "/" for 138.121.12.14 at 2017-05-11 20:08:15 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.8ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 106ms (Views: 102.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/nodes/1" for 138.121.12.14 at 2017-05-11 20:08:19 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCarbonDioxide Load (2.7ms)[0m  [1m[34mSELECT  "carbon_dioxides".* FROM "carbon_dioxides" WHERE "carbon_dioxides"."node_id" = $1 ORDER BY "carbon_dioxides"."id" DESC LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mCarbonMonoxide Load (3.6ms)[0m  [1m[34mSELECT  "carbon_monoxides".* FROM "carbon_monoxides" WHERE "carbon_monoxides"."node_id" = $1 ORDER BY "carbon_monoxides"."id" DESC LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mOzone Load (2.3ms)[0m  [1m[34mSELECT  "ozones".* FROM "ozones" WHERE "ozones"."node_id" = $1 ORDER BY "ozones"."id" DESC LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mHumidity Load (0.8ms)[0m  [1m[34mSELECT  "humidities".* FROM "humidities" WHERE "humidities"."node_id" = $1 ORDER BY "humidities"."id" DESC LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1 ORDER BY "temperatures"."id" DESC LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 24.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `dataDioxide' for nil:NilClass):
+    75: </div>
+    76: 
+    77: <div class="oval-half-red1">
+    78:     <%= @dioxide.dataDioxide %>  ppm
+    79: </div>
+    80: 
+    81: <div class="monoxido">
+  
+app/views/nodes/show.html.erb:78:in `_app_views_nodes_show_html_erb___3217934974466266214_70225898393140'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.5ms)
+Started GET "/" for 138.121.12.14 at 2017-05-11 20:08:24 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#index as HTML
+  Rendering nodes/index.html.erb within layouts/application
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  Rendered nodes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 280ms (Views: 277.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nodes/2" for 138.121.12.14 at 2017-05-11 20:09:50 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonDioxide Load (0.6ms)[0m  [1m[34mSELECT  "carbon_dioxides".* FROM "carbon_dioxides" WHERE "carbon_dioxides"."node_id" = $1 ORDER BY "carbon_dioxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonMonoxide Load (0.5ms)[0m  [1m[34mSELECT  "carbon_monoxides".* FROM "carbon_monoxides" WHERE "carbon_monoxides"."node_id" = $1 ORDER BY "carbon_monoxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mOzone Load (0.5ms)[0m  [1m[34mSELECT  "ozones".* FROM "ozones" WHERE "ozones"."node_id" = $1 ORDER BY "ozones"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mHumidity Load (0.6ms)[0m  [1m[34mSELECT  "humidities".* FROM "humidities" WHERE "humidities"."node_id" = $1 ORDER BY "humidities"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1 ORDER BY "temperatures"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 2.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `dataDioxide' for nil:NilClass):
+    75: </div>
+    76: 
+    77: <div class="oval-half-red1">
+    78:     <%= @dioxide.dataDioxide %>  ppm
+    79: </div>
+    80: 
+    81: <div class="monoxido">
+  
+app/views/nodes/show.html.erb:78:in `_app_views_nodes_show_html_erb___3217934974466266214_70225896035880'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.4ms)
+Started GET "/nodes/2" for 138.121.12.14 at 2017-05-11 20:10:33 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonDioxide Load (0.4ms)[0m  [1m[34mSELECT  "carbon_dioxides".* FROM "carbon_dioxides" WHERE "carbon_dioxides"."node_id" = $1 ORDER BY "carbon_dioxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonMonoxide Load (0.4ms)[0m  [1m[34mSELECT  "carbon_monoxides".* FROM "carbon_monoxides" WHERE "carbon_monoxides"."node_id" = $1 ORDER BY "carbon_monoxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mOzone Load (0.3ms)[0m  [1m[34mSELECT  "ozones".* FROM "ozones" WHERE "ozones"."node_id" = $1 ORDER BY "ozones"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mHumidity Load (0.3ms)[0m  [1m[34mSELECT  "humidities".* FROM "humidities" WHERE "humidities"."node_id" = $1 ORDER BY "humidities"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1 ORDER BY "temperatures"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 144ms (ActiveRecord: 2.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `dataDioxide' for nil:NilClass):
+    75: </div>
+    76: 
+    77: <div class="oval-half-red1">
+    78:     <!--<%= @dioxide.dataDioxide %>  ppm-->
+    79: </div>
+    80: 
+    81: <div class="monoxido">
+  
+app/views/nodes/show.html.erb:78:in `_app_views_nodes_show_html_erb___3217934974466266214_70225890013300'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.5ms)
+Started GET "/nodes/2" for 138.121.12.14 at 2017-05-11 20:10:59 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonDioxide Load (0.5ms)[0m  [1m[34mSELECT  "carbon_dioxides".* FROM "carbon_dioxides" WHERE "carbon_dioxides"."node_id" = $1 ORDER BY "carbon_dioxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonMonoxide Load (0.4ms)[0m  [1m[34mSELECT  "carbon_monoxides".* FROM "carbon_monoxides" WHERE "carbon_monoxides"."node_id" = $1 ORDER BY "carbon_monoxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mOzone Load (0.4ms)[0m  [1m[34mSELECT  "ozones".* FROM "ozones" WHERE "ozones"."node_id" = $1 ORDER BY "ozones"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mHumidity Load (0.6ms)[0m  [1m[34mSELECT  "humidities".* FROM "humidities" WHERE "humidities"."node_id" = $1 ORDER BY "humidities"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1 ORDER BY "temperatures"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 2.6ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:79: syntax error, unexpected '<'
+</div>
+ ^
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:83: unknown regexp options - dv
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:84: syntax error, unexpected '<'
+<div class="oval-half-red2">
+ ^
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:85: syntax error, unexpected tIDENTIFIER, expecting ')'
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:90: unknown regexp options - dv
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:92: syntax error, unexpected '<'
+<div class="oval-half-red3">
+ ^
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:93: syntax error, unexpected tIDENTIFIER, expecting ')'
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:98: unknown regexp options - dv
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:99: syntax error, unexpected '<'
+<div class="oval-half-red4">
+ ^
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:101: syntax error, unexpected '<'
+</div>
+ ^
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:105: unknown regexp options - dv
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:107: syntax error, unexpected '<'
+<div class="oval-half-red5">
+ ^
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:108: syntax error, unexpected tIDENTIFIER, expecting ')'
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:113: unknown regexp options - dv
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:114: syntax error, unexpected '<'
+<div class="oval-half-red6">
+ ^
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:115: syntax error, unexpected tIDENTIFIER, expecting ')'
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:127: unknown regexp options - htl
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:129: unterminated string meets end of file
+/home/ubuntu/workspace/airescue/app/views/nodes/show.html.erb:129: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/nodes/show.html.erb:79: syntax error, unexpected '<'
+app/views/nodes/show.html.erb:83: unknown regexp options - dv
+app/views/nodes/show.html.erb:84: syntax error, unexpected '<'
+app/views/nodes/show.html.erb:85: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/nodes/show.html.erb:90: unknown regexp options - dv
+app/views/nodes/show.html.erb:92: syntax error, unexpected '<'
+app/views/nodes/show.html.erb:93: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/nodes/show.html.erb:98: unknown regexp options - dv
+app/views/nodes/show.html.erb:99: syntax error, unexpected '<'
+app/views/nodes/show.html.erb:101: syntax error, unexpected '<'
+app/views/nodes/show.html.erb:105: unknown regexp options - dv
+app/views/nodes/show.html.erb:107: syntax error, unexpected '<'
+app/views/nodes/show.html.erb:108: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/nodes/show.html.erb:113: unknown regexp options - dv
+app/views/nodes/show.html.erb:114: syntax error, unexpected '<'
+app/views/nodes/show.html.erb:115: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/nodes/show.html.erb:127: unknown regexp options - htl
+app/views/nodes/show.html.erb:129: unterminated string meets end of file
+app/views/nodes/show.html.erb:129: syntax error, unexpected end-of-input, expecting ')'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.5ms)
+Started GET "/nodes/2" for 138.121.12.14 at 2017-05-11 20:11:13 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonDioxide Load (0.6ms)[0m  [1m[34mSELECT  "carbon_dioxides".* FROM "carbon_dioxides" WHERE "carbon_dioxides"."node_id" = $1 ORDER BY "carbon_dioxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonMonoxide Load (0.4ms)[0m  [1m[34mSELECT  "carbon_monoxides".* FROM "carbon_monoxides" WHERE "carbon_monoxides"."node_id" = $1 ORDER BY "carbon_monoxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mOzone Load (0.3ms)[0m  [1m[34mSELECT  "ozones".* FROM "ozones" WHERE "ozones"."node_id" = $1 ORDER BY "ozones"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mHumidity Load (0.4ms)[0m  [1m[34mSELECT  "humidities".* FROM "humidities" WHERE "humidities"."node_id" = $1 ORDER BY "humidities"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1 ORDER BY "temperatures"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (100.5ms)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 2.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `dataMonoxide' for nil:NilClass):
+    80:       Monóxido de Carbono
+    81: </div>
+    82: <div class="oval-half-red2">
+    83:     <%= @monoxide.dataMonoxide %> ppm
+    84: </div>
+    85: 
+    86: <div class="ozono1">
+  
+app/views/nodes/show.html.erb:83:in `_app_views_nodes_show_html_erb___3217934974466266214_70225878883580'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.2ms)
+Started GET "/nodes/2" for 138.121.12.14 at 2017-05-11 20:11:35 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NodesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonDioxide Load (0.6ms)[0m  [1m[34mSELECT  "carbon_dioxides".* FROM "carbon_dioxides" WHERE "carbon_dioxides"."node_id" = $1 ORDER BY "carbon_dioxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mCarbonMonoxide Load (0.5ms)[0m  [1m[34mSELECT  "carbon_monoxides".* FROM "carbon_monoxides" WHERE "carbon_monoxides"."node_id" = $1 ORDER BY "carbon_monoxides"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mOzone Load (0.5ms)[0m  [1m[34mSELECT  "ozones".* FROM "ozones" WHERE "ozones"."node_id" = $1 ORDER BY "ozones"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mHumidity Load (0.4ms)[0m  [1m[34mSELECT  "humidities".* FROM "humidities" WHERE "humidities"."node_id" = $1 ORDER BY "humidities"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" WHERE "temperatures"."node_id" = $1 ORDER BY "temperatures"."id" DESC LIMIT $2[0m  [["node_id", 2], ["LIMIT", 1]]
+  Rendering nodes/show.html.erb within layouts/application
+  Rendered nodes/show.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 3.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `dataDioxide' for nil:NilClass):
+    75: </div>
+    76: 
+    77: <div class="oval-half-red1">
+    78:     <%= @dioxide.dataDioxide %>  ppm
+    79: </div>
+    80: 
+    81: <div class="monoxido">
+  
+app/views/nodes/show.html.erb:78:in `_app_views_nodes_show_html_erb___3217934974466266214_70225892250140'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.2ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:13:29 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 121ms (Views: 118.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:16:42 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 214ms (Views: 212.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:16:47 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 163ms (Views: 160.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:17:11 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.2ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 162ms (Views: 160.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:17:37 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.2ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 88ms (Views: 85.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:19:52 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 180ms (Views: 177.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:20:48 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.7ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (116.9ms)
+Completed 200 OK in 251ms (Views: 247.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:21:49 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  Rendered graphics/index.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_int' for "20":String
+Did you mean?  to_i
+               to_time
+               to_str
+               taint):
+    22:         data.addColumn('number', 'Grados');
+    23:         data.addRows([
+    24:           <% @temperatures.each do |temperature|%>
+    25:           [<%= temperature.created_at.strftime("%H").to_int%>, <%= temperature.dateTemperature.to_int%>],
+    26:           <%end%>
+    27:         ]);
+    28:         // ['2:00 pm', 25]
+  
+app/views/graphics/index.html.erb:25:in `block in _app_views_graphics_index_html_erb__4032367217427977349_70225900822640'
+app/views/graphics/index.html.erb:24:in `_app_views_graphics_index_html_erb__4032367217427977349_70225900822640'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.2ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:27:30 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.6ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 186ms (Views: 183.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:28:30 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 208ms (Views: 206.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:28:43 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 185ms (Views: 181.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:30:03 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 98ms (Views: 95.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:30:40 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 200ms (Views: 197.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:30:43 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (1.2ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 209ms (Views: 205.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:32:27 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 89ms (Views: 86.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:34:17 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (4.7ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 127ms (Views: 114.3ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:34:36 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 93ms (Views: 89.2ms | ActiveRecord: 1.3ms)
+
+
+  [1m[36mNode Load (0.7ms)[0m  [1m[34mSELECT "nodes".* FROM "nodes"[0m
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (9.9ms)[0m  [1m[32mINSERT INTO "temperatures" ("id", "dateTemperature", "node_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 3], ["dateTemperature", 18.0], ["node_id", 2], ["created_at", 2017-05-11 20:42:37 UTC], ["updated_at", 2017-05-11 20:42:37 UTC]]
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 20:45:07 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (6.1ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 266ms (Views: 256.4ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:04:54 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  Rendered graphics/index.html.erb within layouts/application (324.1ms)
+Completed 500 Internal Server Error in 332ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `temp' for #<#<Class:0x000000040b4150>:0x007fbd7a7450b0>):
+    17:       function drawChart() { //Graficas diarias
+    18:         // Create the data table.
+    19:         <%# if temp.node_id = 1 %>
+    20:         <% puts temp.node_id%>
+    21:         var data = new google.visualization.DataTable();
+    22:         data.addColumn('string', 'HoraDelDia');
+    23:         data.addColumn('number', 'Grados');
+  
+app/views/graphics/index.html.erb:20:in `_app_views_graphics_index_html_erb__4032367217427977349_70225889996100'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:05:21 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `node_id' for nil:NilClass):
+    17:       function drawChart() { //Graficas diarias
+    18:         // Create the data table.
+    19:         <%# if temp.node_id = 1 %>
+    20:         <% puts @temp.node_id%>
+    21:         var data = new google.visualization.DataTable();
+    22:         data.addColumn('string', 'HoraDelDia');
+    23:         data.addColumn('number', 'Grados');
+  
+app/views/graphics/index.html.erb:20:in `_app_views_graphics_index_html_erb__4032367217427977349_70225897352860'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.7ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:07:14 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `node_id' for nil:NilClass):
+    17:       function drawChart() { //Graficas diarias
+    18:         // Create the data table.
+    19:         <%# if temp.node_id = 1 %>
+    20:         <% puts @temp.node_id%>
+    21:         var data = new google.visualization.DataTable();
+    22:         data.addColumn('string', 'HoraDelDia');
+    23:         data.addColumn('number', 'Grados');
+  
+app/views/graphics/index.html.erb:20:in `_app_views_graphics_index_html_erb__4032367217427977349_29013740'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.4ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:08:16 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `node_id' for nil:NilClass):
+    17:       function drawChart() { //Graficas diarias
+    18:         // Create the data table.
+    19:         <%# if temp.node_id = 1 %>
+    20:         <% puts @temp.node_id%>
+    21:         var data = new google.visualization.DataTable();
+    22:         data.addColumn('string', 'HoraDelDia');
+    23:         data.addColumn('number', 'Grados');
+  
+app/views/graphics/index.html.erb:20:in `_app_views_graphics_index_html_erb__4032367217427977349_70225895707260'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.6ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:08:28 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  Rendered graphics/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `node_id' for nil:NilClass):
+    17:       function drawChart() { //Graficas diarias
+    18:         // Create the data table.
+    19:         <%# if temp.node_id = 1 %>
+    20:         <% puts @temp.node_id%>
+    21:         var data = new google.visualization.DataTable();
+    22:         data.addColumn('string', 'HoraDelDia');
+    23:         data.addColumn('number', 'Grados');
+  
+app/views/graphics/index.html.erb:20:in `_app_views_graphics_index_html_erb__4032367217427977349_70225899810620'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (102.8ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:08:48 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.8ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (1.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (107.6ms)
+Completed 200 OK in 255ms (Views: 223.3ms | ActiveRecord: 30.1ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:12:44 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  Rendered graphics/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 2.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `node_id' for #<Class:0x007fbd7b1ae970>):
+    22:           <%end%>
+    23:         ]);
+    24:         // Set chart options
+    25:         var options = {'title':'Reporte diario Nodo <%= Node.find_by(id: Temperature.node_id).name%>',
+    26:                        'width':400,
+    27:                        'height':300};
+    28: 
+  
+app/views/graphics/index.html.erb:25:in `_app_views_graphics_index_html_erb__4032367217427977349_70225898000240'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.7ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:13:31 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 208ms (Views: 205.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:14:00 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:15:16 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 76ms (Views: 73.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:25:09 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (1.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (135.0ms)
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 2.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `node_id' for #<Class:0x007fbd7b1ae970>):
+    46:           ['Domingo', 18]
+    47:         ]);
+    48:           
+    49:         var options = {'title':'Reporte Semanal Nodo <%= Node.find_by(id: Temperature.node_id).name%>',
+    50:                        'width':400,
+    51:                        'height':300};
+    52:                        
+  
+app/views/graphics/index.html.erb:49:in `_app_views_graphics_index_html_erb__4032367217427977349_70225891188680'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.9ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:27:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 253ms (Views: 250.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:30:26 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  Rendered graphics/index.html.erb within layouts/application (356.2ms)
+Completed 500 Internal Server Error in 360ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `node_id' for #<#<Class:0x007fbd7b229a30>:0x007fbd7bd0cd80>
+Did you mean?  node_url):
+    22:           <%end%>
+    23:         ]);
+    24:         // Set chart options
+    25:         var options = {'title':'Reporte diario Nodo <%= Node.find_by(id: Temperature.at(node_id)).name%>',
+    26:                        'width':400,
+    27:                        'height':300};
+    28: 
+  
+app/views/graphics/index.html.erb:25:in `_app_views_graphics_index_html_erb__4032367217427977349_70225901415360'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.6ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:31:01 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 120ms (Views: 117.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:32:11 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 105ms (Views: 102.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:32:43 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 107ms (Views: 104.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:33:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 274ms (Views: 270.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:39:00 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (3.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 148ms (Views: 142.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:39:14 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 211ms (Views: 209.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:40:07 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 260ms (Views: 257.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:43:16 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 70ms (Views: 66.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:48:30 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (1.0ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  Rendered graphics/index.html.erb within layouts/application (248.3ms)
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x007fbd7b229a30>:0x007fbd7aa61b18>):
+    22:           <%end%>
+    23:         ]);
+    24:         // Set chart options
+    25:         var options = {'title':'Reporte diario Nodo <%= Node.find_by(id: Temperature.where(params:id)).name%>',
+    26:                        'width':400,
+    27:                        'height':300};
+    28: 
+  
+app/views/graphics/index.html.erb:25:in `_app_views_graphics_index_html_erb__4032367217427977349_70225891627640'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.8ms)
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:49:17 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.5ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  Rendered graphics/index.html.erb within layouts/application (349.2ms)
+Completed 500 Internal Server Error in 353ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `node_id' for #<#<Class:0x007fbd7b229a30>:0x007fbd7a74fbc8>
+Did you mean?  node_url):
+    22:           <%end%>
+    23:         ]);
+    24:         // Set chart options
+    25:         var options = {'title':'Reporte diario Nodo <%= Node.find_by(id: Temperature.where(params:node_id)).name%>',
+    26:                        'width':400,
+    27:                        'height':300};
+    28: 
+  
+app/views/graphics/index.html.erb:25:in `_app_views_graphics_index_html_erb__4032367217427977349_70225890567060'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (21.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.6ms)
+  [1m[36mNode Load (667.1ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:51:54 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (36.2ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (49.1ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (35.6ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (128.5ms)
+Completed 200 OK in 290ms (Views: 164.3ms | ActiveRecord: 121.2ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 21:53:10 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (4.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (27.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (1.0ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 170ms (Views: 133.7ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:03:12 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (9.0ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (11.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (1.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 186ms (Views: 163.1ms | ActiveRecord: 21.9ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:04:12 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (1.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (166.1ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (2.1ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.3ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (175.2ms)
+Completed 200 OK in 319ms (Views: 148.2ms | ActiveRecord: 169.8ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:04:53 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (4.7ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (11.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (1.1ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (220.7ms)
+Completed 200 OK in 310ms (Views: 93.0ms | ActiveRecord: 215.4ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:05:02 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 236ms (Views: 233.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:05:22 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.3ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT  "temperatures".* FROM "temperatures" ORDER BY "temperatures"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mNode Load (0.2ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 147ms (Views: 144.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:07:27 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 174ms (Views: 168.6ms | ActiveRecord: 0.9ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mNode Load (0.4ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (11.7ms)[0m  [1m[32mINSERT INTO "temperatures" ("id", "dateTemperature", "node_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["id", 4], ["dateTemperature", 20.0], ["node_id", 2], ["created_at", 2017-05-11 22:16:23 UTC], ["updated_at", 2017-05-11 22:16:23 UTC]]
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:19:47 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 135ms (Views: 131.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:20:42 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (0.6ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 244ms (Views: 241.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/graphics" for 138.121.12.14 at 2017-05-11 22:23:40 +0000
+Cannot render console from 138.121.12.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GraphicsController#index as HTML
+  Rendering graphics/index.html.erb within layouts/application
+  [1m[36mTemperature Load (0.4ms)[0m  [1m[34mSELECT "temperatures".* FROM "temperatures"[0m
+  [1m[36mNode Load (0.5ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "nodes".* FROM "nodes" WHERE "nodes"."id" IN (SELECT "temperatures"."id" FROM "temperatures" WHERE "temperatures"."node_id" = $1) LIMIT $2[0m  [["node_id", 1], ["LIMIT", 1]]
+  Rendered graphics/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 234ms (Views: 231.2ms | ActiveRecord: 1.0ms)
+
+
