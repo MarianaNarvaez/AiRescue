@@ -20,7 +20,7 @@
           <% @temperatures.each do |temperature|%>
           ['<%= temperature.created_at.strftime("%H:00")%>', <%= temperature.dateTemperature.to_int%>],
           <%end%>
-        ]);
+          ]);
         // Set chart options
         var options = {'title':'Reporte diario Nodo <%= Node.find_by(id: Temperature.where(node_id:1)).name%>',
                        'width':400,
