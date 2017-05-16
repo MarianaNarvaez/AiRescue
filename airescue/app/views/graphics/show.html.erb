@@ -153,7 +153,7 @@
         data.addColumn('number', 'procentaje');
         data.addRows([
           <% @humed.each do |value|%>
-          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataHumidity.to_int%>],
+          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataHumidity.to_i%>],
           <%end%>
           ]);
         // Set chart options
@@ -175,7 +175,7 @@
         data.addColumn('number','procentaje');
         data.addRows([
            <% @humed.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataHumidity.to_int%>],
+          ['<%= value.created_at.strftime("%a")%>', <%= value.dataHumidity.to_i%>],
           <%end%>
         ]);
           
