@@ -26,7 +26,7 @@
         data.addColumn('number', 'Grados');
         data.addRows([
           <% @temp.each do |value|%>
-          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dateTemperature.to_int%>],
+          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dateTemperature.to_i%>],
           <%end%>
           ]);
         // Set chart options
@@ -48,7 +48,7 @@
         data.addColumn('number','Grados');
         data.addRows([
            <% @temp.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dateTemperature.to_int%>],
+          ['<%= value.created_at.strftime("%a")%>', <%= value.dateTemperature.to_i%>],
           <%end%>
         ]);
           
@@ -69,7 +69,7 @@
         data.addColumn('number', 'ppm');
         data.addRows([
           <% @dioxide.each do |value|%>
-          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataDioxide.to_int%>],
+          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataDioxide.to_i%>],
           <%end%>
           ]);
         // Set chart options
@@ -91,7 +91,7 @@
         data.addColumn('number','ppm');
         data.addRows([
            <% @dioxide.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataDioxide.to_int%>],
+          ['<%= value.created_at.strftime("%a")%>', <%= value.dataDioxide.to_i%>],
           <%end%>
         ]);
           
@@ -111,7 +111,7 @@
         data.addColumn('number', 'ppm');
         data.addRows([
           <% @monoxide.each do |value|%>
-          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataMonoxide.to_int%>],
+          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataMonoxide.to_i%>],
           <%end%>
           ]);
         // Set chart options
@@ -133,7 +133,7 @@
         data.addColumn('number','ppm');
         data.addRows([
           <% @monoxide.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataMonoxide.to_int%>],
+          ['<%= value.created_at.strftime("%a")%>', <%= value.dataMonoxide.to_i%>],
           <%end%>
         ]);
           
@@ -195,7 +195,7 @@
         data.addColumn('number', 'Grados');
         data.addRows([
           <% @ozone.each do |value|%>
-          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataOzone.to_int%>],
+          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataOzone.to_i%>],
           <%end%>
           ]);
         // Set chart options
@@ -217,7 +217,7 @@
         data.addColumn('number','Grados');
         data.addRows([
            <% @ozone.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataOzone.to_int%>],
+          ['<%= value.created_at.strftime("%a")%>', <%= value.dataOzone.to_i%>],
           <%end%>
         ]);
           
