@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   resources :temperatures
   resources :nodes
   resources :graphics
+  get '/graphics/:id/showDay', to: 'graphics#showDay', :as => :day_graphic
+  get '/graphics/:id/showWeek', to: 'graphics#show', :as => :week_graphic
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   namespace :api, defaults: {format: 'json'} do
