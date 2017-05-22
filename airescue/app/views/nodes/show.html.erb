@@ -18,7 +18,11 @@
   					<%= link_to "Variables", node_path%>
   				</ol>
   				<ol class="est list-unstyled">
-  					<%= link_to "Estadisticas", root_path%>			
+  					<%= link_to "Estadisticas semanales", week_graphic_path(@node)%>	
+  				</ol>
+  				<ol class="est list-unstyled">
+  					<%= link_to "Estadisticas diarias", day_graphic_path(@node)%>	
+  				</ol>
   			</ul>
   		</nav>
       <h2 class = "plaza">
@@ -94,10 +98,7 @@
 </div>
 
 <div class="oval-half-red3">
-    <div class="letraVar">
-        <%= @ozone.dataOzone %> m
-    </div>
-</div>
+    
 
 <div class="humedad1">
        Humedad
