@@ -1,0 +1,27 @@
+<%= form_for(nitrogen) do |f| %>
+  <% if nitrogen.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(nitrogen.errors.count, "error") %> prohibited this nitrogen from being saved:</h2>
+
+      <ul>
+      <% nitrogen.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :dataNitrogen %>
+    <%= f.text_field :dataNitrogen %>
+  </div>
+
+  <div class="field">
+    <%= f.label :node_id %>
+    <%= f.text_field :node_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
