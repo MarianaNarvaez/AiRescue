@@ -13,37 +13,44 @@
         
             <%= link_to node do %>
             
+                <style>
+                    .imagen<%=node.id%>{
+	                   margin: 0px;
+	                   background-image: url(<%=node.cover.url(:medium) %> );
+	                   background-size: 100%;
+	                   border: 3px solid black;
+                    }
+                    
+                    .edit{
+	                    margin: 0px;
+	                    position: absolute;
+	                    top: 80px;
+	                    left: 60px;
+  	                    width: 50px;
+  	                    height: 50px;
+                    }
+                    
+                </style>
+                
             
                 <% if user_signed_in? %>
-                    <style>
-                        .imagen<%=node.id%>{
-	                    margin: 0px;
-	                    background-image: url(<%=node.cover.url(:medium) %> );
-	                    background-size: 100%;
-	                    border: 3px solid black;
-}
-                    </style>
                     
-                    <div class="ancho imagen<%=node.id%> letraNodo "> <br> <br> <br> <%= node.name %> 
+                    <div class="ancho imagen<%=node.id%> letraNodo"  
+                     > <br> <br> <br> <%= node.name %> 
                         <br> <br> <%= node.data %> <br> <br> <br>
         
-                            <%= link_to '', edit_node_path(node), :class => "editar" %> 
                         <br> 
                         
-
                             <%= link_to '', node, 
                             method: :delete, data: { confirm: 'Are you sure?' } %>
                             
-                    <div class="field">
-                         
+                    <div class="field edit">
+                         <%= link_to 'edit', edit_node_path(node) %>
                     </div>  
                             
-                            
-                        
-                        
                     </div>
                   <%else%>
-                      <div class="ancho imagenNodo letraNodo"><%= node.name %> <br> <%= node.data %> <br>  </div>
+                      <div class="ancho imagen<%=node.id%> letraNodo"><%= node.name %> <br> <%= node.data %> <br>  </div>
                 <%end%>
             <%end%>
 
