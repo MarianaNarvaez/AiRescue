@@ -22,27 +22,31 @@
                 <% end %>
 
                 <div class="form-group">
-                  <%= f.text_field :name, autofocus: true, class:"form-control placeholder='name'" %>
+                  <%= f.text_field :name, autofocus: true, class:"form-control", placeholder:"Nombre" %>
                 </div>
 
                 <div class="form-group placeholder= 'Describe yourself here...'">
                   <!--<%= f.label :address, class:"form-control" %>-->
-                  <%= f.text_field :address, class:"form-control placeholder: 'Contrasena'"%>
+                  <%= f.text_field :address, class:"form-control ", placeholder:"Dirección"%>
                 </div>
 
                 <div class="form-group">
                   <!--<%= f.label :description, class:"form-control" %>-->
-                  <%= f.text_field :description, class:"form-control" %>
+                  <%= f.text_field :description, class:"form-control", placeholder:"Descripción"  %>
                 </div>
 
                 <!--<div class="form-group">
                   <%= f.label :data, class:"form-control" %>
                   <%= f.text_field :data, class:"form-control" %>
                 </div>-->
+                
+                <div class="form-group">
+                  <%= f.file_field :cover %>
+                </div>
 
-            <div class="actions">
-              <%= f.submit @nombreBotones, class:"btn btn-lg btn-success btn-block" %>
-            </div>
+                <div class="actions">
+                  <%= f.submit @nombreBotones, class:"btn btn-lg btn-success btn-block" %>
+                </div>
   
           <% end %>
 

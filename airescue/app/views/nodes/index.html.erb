@@ -6,8 +6,6 @@
    <br>
    <br>
    <br>
-   <br>
-   <br>
 
     
     <div class="row tam">
@@ -15,16 +13,40 @@
         
             <%= link_to node do %>
             
+            
                 <% if user_signed_in? %>
+                    <style>
+                        .imagen<%=node.id%>{
+	                    margin: 0px;
+	                    background-image: url(<%=node.cover.url(:medium) %> );
+	                    background-size: 100%;
+	                    border: 3px solid black;
+}
+                    </style>
+                    
+                    <div class="ancho imagen<%=node.id%> letraNodo "> <br> <br> <br> <%= node.name %> 
+                        <br> <br> <%= node.data %> <br> <br> <br>
+        
+                            <%= link_to '', edit_node_path(node), :class => "editar" %> 
+                        <br> 
+                        
 
-                    <div class="ancho imagenNodo letraNodo "> <br> <br> <br> <%= node.name %> 
-                    <br> <br> <%= node.data %> <br> <br> <br> <%= link_to '', edit_node_path(node), 
-                    class: "editar field" %> <br> <%= link_to '', node, class: "borrar field", 
-                     method: :delete, data: { confirm: 'Are you sure?' } %></div>
+                            <%= link_to '', node, 
+                            method: :delete, data: { confirm: 'Are you sure?' } %>
+                            
+                    <div class="field">
+                         
+                    </div>  
+                            
+                            
+                        
+                        
+                    </div>
                   <%else%>
                       <div class="ancho imagenNodo letraNodo"><%= node.name %> <br> <%= node.data %> <br>  </div>
                 <%end%>
             <%end%>
+
         <% end %>
         </div>
         <br>
@@ -41,6 +63,8 @@
 
 <br>
 <hr />
+
+
 
 <div class="contactanos">
     <div>E-mail: airescue@gmail.com
