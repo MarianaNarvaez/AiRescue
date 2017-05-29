@@ -1,7 +1,26 @@
-<h1 class = "fondoTitle air"><%= link_to 'AiRescue', nodes_path %></h1>
+<div class="encabezado">
+  
+    <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
+      <% if user_signed_in? %>
+        <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <br>
+    <%else%>
+        <%= link_to "Iniciar sesion", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+    <%end%>
+    
+</div>
 
-    <%= render 'form', node: @node, class: "fondoTitle"  %>
+<div class = "fondoNodos1">
+</div>
+<div class = "fondoNodos2">
+</div>
+<div class = "fondoNodos3">
+</div>
+<%= render 'form', node: @node, class: "fondoTitle"  %>
+  
 
-    <%= link_to '', nodes_path, class: "posicionBack" %>
+
+
+
     
 

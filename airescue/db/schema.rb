@@ -47,6 +47,14 @@ ActiveRecord::Schema.define(version: 20170524203416) do
     t.index ["node_id"], name: "index_humidities_on_node_id", using: :btree
   end
 
+  create_table "nitrogens", force: :cascade do |t|
+    t.string   "dataNitrogen"
+    t.integer  "node_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["node_id"], name: "index_nitrogens_on_node_id", using: :btree
+  end
+
   create_table "nodes", force: :cascade do |t|
     t.string   "name"
     t.string   "address"
@@ -100,6 +108,7 @@ ActiveRecord::Schema.define(version: 20170524203416) do
   add_foreign_key "carbon_monoxides", "nodes"
   add_foreign_key "carbons", "nodes"
   add_foreign_key "humidities", "nodes"
+  add_foreign_key "nitrogens", "nodes"
   add_foreign_key "ozones", "nodes"
   add_foreign_key "temperatures", "nodes"
 end

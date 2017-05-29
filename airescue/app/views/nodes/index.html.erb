@@ -2,76 +2,56 @@
 
 <p id="notice"><%= notice %></p>
 
-<h1 >AirRescue</h1>
-   <br>
-   <br>
-   <br>
-
-    
-    <div class="row tam">
-        <% @nodes.each do |node| %>
-        
-            <%= link_to node do %>
-            
-                <style>
-                    .imagen<%=node.id%>{
-	                   margin: 0px;
-	                   background-image: url(<%=node.cover.url(:medium) %> );
-	                   background-size: 100%;
-	                   border: 3px solid black;
-                    }
-                    
-                    .edit{
-	                    margin: 0px;
-	                    position: absolute;
-	                    top: 80px;
-	                    left: 60px;
-  	                    width: 50px;
-  	                    height: 50px;
-                    }
-                    
-                </style>
-                
-            
-                <% if user_signed_in? %>
-                    
-                    <div class="ancho imagen<%=node.id%> letraNodo"  
-                     > <br> <br> <br> <%= node.name %> 
-                        <br> <br> <%= node.data %> <br> <br> <br>
-        
-                        <br> 
-                        
-                            <%= link_to '', node, 
-                            method: :delete, data: { confirm: 'Are you sure?' } %>
-                            
-                    <div class="field edit">
-                         <%= link_to 'edit', edit_node_path(node) %>
-                    </div>  
-                            
-                    </div>
-                  <%else%>
-                      <div class="ancho imagen<%=node.id%> letraNodo"><%= node.name %> <br> <%= node.data %> <br>  </div>
-                <%end%>
-            <%end%>
-
-        <% end %>
-        </div>
-        <br>
-        <br>
-    
-    
-      <% if user_signed_in? %>
-        <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, class: "cerrarSesion" %>
+<div class="encabezado">
+    <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
+    <% if user_signed_in? %>
+        <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
         <%= link_to '', new_node_path, class: "agregarNodo" %>
-         <br>
-      <%else%>
-        <%= link_to "Iniciar sesion", new_user_session_path, class: "cerrarSesion" %>
-      <%end%>
+        <br>
+    <%else%>
+        <%= link_to "Iniciar sesion", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+    <%end%>
+</div>
+<br>
+<br>
+<br>
 
+<div class = "vacio">
+</div>
+
+
+<div align="center">
+    <div class="container-fluid ">
+        <div class="row">
+            <% @nodes.each do |node| %>
+            <div class="col-sm-3 padding">
+                <div class="box">
+                    <img class="imagenNodo" src="<%=node.cover.url(:medium) %>">
+                    <div class="overlay">
+				    </div>
+                </div>
+                
+                <br>
+                <b>Nombre:</b>  <%= node.name %>
+                <br>
+                <b>Valor:</b> <%= node.data %>
+                <br>
+                <br>
+                <%= link_to 'ver', node_path(node), style: 'color:#FFFFFF;', class:"btn botonesNodos" %>
+                <% if user_signed_in? %>
+                    <%= link_to 'Editar', edit_node_path(node), style: 'color:#FFFFFF;', class:"btn botonesNodos" %>
+                    <%= link_to 'Borrar', node, method: :delete, style: 'color:#FFFFFF;', data: { confirm: 'Are you sure?' }, class:"btn botonesNodos" %>
+                <%end%> 
+            </div>
+            <% end %>
+        </div>
+    </div>
+</div>
+
+   
+<br>
 <br>
 <hr />
-
-
 
 <div class="contactanos">
     <div>E-mail: airescue@gmail.com
@@ -84,7 +64,4 @@
         Universidad EAFIT
     </div>
 </div>
-
-
-
 </html>

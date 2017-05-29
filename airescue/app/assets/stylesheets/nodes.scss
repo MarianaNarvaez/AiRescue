@@ -1,403 +1,570 @@
-// Place all the styles related to the Nodes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  margin: 0px; 
+}
+  
+.box{width:276px; height:166px; border:1px solid #000; border-radius:2px; float:left }
+.box img{width:276px; height:166px;}
+.box .overlay{width:270px; height:180px; background:#fff; margin:-180px 0px 0px 0px; opacity:0.1; }
+.box a{padding:3px 5px; border:0px solid #000; text-decoration:none; font-family:sans-serif; font-size:14px; margin:-140px 0px 0px 15px; display:inline-block; opacity:0; transition:all 0.5s ease-in-out;    cursor: pointer;/* z-index: 10000; */position: absolute;}
 
-html,body{
+.box .overlay:hover{opacity:0.5; transition:all 0.5s ease-in-out; width:300px; margin-left:50px; float:right; }
+.box:hover{box-shadow:0px 0px 10px #6A6A6A; border:1px solid #00DFDF;transition:all 0.5s ease-in-out;}
+.box:hover a{opacity:0.8; background:#FFFFFF; color:#000000; margin:-40px 0px 0px 15px;  border-radius:1px; }
+.box a:hover{border:1px solid #00DFDF;transition:all 0.5s ease-in-out;   }
 
-	margin: 0px;
+  
+.FondoBlanco {
+  background-color: white; }
+  
+.fondoNodos1{
+  position: absolute;
+  top: 425px;
+  left: 100px;
+  width: 250px;
+  height: 220px;
+  background-image: url("./hoja.png"); 
+  background-size: 100%;
+}
+.fondoNodos1:hover{
+  width: 250px;
+  height: 220px;
+  opacity: 0.8;
+  background-image: url("./hoja2.png"); 
+  background-size: 100%;
+  transition: 0.5s;
 }
 
-.FondoBlanco{
-	background-color: white;
+.fondoNodos2{
+  position: absolute;
+  top: 540px;
+  left: 400px;
+  width: 120px;
+  height: 100px;
+  background-image: url("./hoja.png"); 
+  background-size: 100%;
+}
+.fondoNodos2:hover{
+  width: 120px;
+  height: 100px;
+  opacity: 0.8;
+  background-image: url("./hoja2.png"); 
+  background-size: 100%;
+  transition: 0.5s;
 }
 
-.no-margin{
-	margin: 0px;
+.fondoNodos3{
+  position: absolute;
+  top: 400px;
+  left: 920px;
+  width: 280px;
+  height: 250px;
+  background-image: url("./hoja.png"); 
+  background-size: 100%;
 }
 
-.fondoTitle{
-	background-color: transparent;
-}
-
-.ancho{
-	width: 320px;
-	height: 185px;
-}
-
-.colorFondoBoton{
-	background: transparent;
-}
-
-.botonInfo{
-	
-	margin: 0px;
-	position: absolute;
-	top: 110px;
-	left: 40px;
-	background-image: url('./info.jpg');
-	background-size: 100%;
-	border: 3px;
-  	width: 40px;
-  	height: 40px;
-	
-}
-
-.negrita{
-	font-weight: bold;
-}
-
-.sinNegrita{
-	 text-decoration: none;
+.fondoNodos3:hover{
+  width: 280px;
+  height: 250px;
+  opacity: 0.8;
+  background-image: url("./hoja2.png"); 
+  background-size: 100%;
+  transition: 0.5s;
 }
 
 
-.posicionBack{
-	margin: 0px;
-	position: absolute;
-	top: 30px;
-	left: 1280px;
-	background-image: url('./atras.png');
-	background-size: 100%;
-	//border: 3px;
-  	width: 40px;
-  	height: 40px;
-	
+.no-margin {
+  margin: 0px; }
+
+.fondoTitle {
+  background-color: transparent; }
+
+.tituloNodos {
+  color: red;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 2.0em; }
+
+.tituloNodos:hover {
+  background-color: #48A548;
+  color: black;
+  text-decoration: black; }
+
+.tituloNodosShow {
+  color: black;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 2.0em; }
+
+.tituloNodosShow:hover {
+  background-color: #ffffff;
+  color: black;
+  text-decoration: #ededed; }
+
+.editShow {
+  margin: 0px;
+  position: absolute;
+  top: 40px;
+  left: 845px;
+  background-image: url("./editar.png"); 
+  background-size: 100%;
+  border: 3px;
+  width: 40px;
+  height: 40px; 
 }
 
-.posicionBackEdit{
-	margin: 0px;
-	position: absolute;
-	top: 30px;
-	left: 1210px;
-	background-image: url('./atras.png');
-	background-size: 100%;
-	//border: 3px;
-  	width: 40px;
-  	height: 40px;
-	
+.encabezado {
+  background-color: #48A548;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1350px;
+  height: 120px; }
+
+.ubicacionNodos {
+  position: absolute;
+  top: 60px; }
+
+.ancho {
+  width: 320px;
+  height: 185px; }
+
+.colorFondoBoton {
+  background: transparent; }
+
+.botonInfo {
+  margin: 0px;
+  position: absolute;
+  top: 40px;
+  left: 910px;
+  background-image: url("./info.jpg");
+  background-size: 100%;
+  border: 3px;
+  width: 40px;
+  height: 40px; }
+
+.agregarNodo {
+  margin: 0px;
+  position: absolute;
+  top: 30px;
+  left: 1110px;
+  background-image: url("./mas.png");
+  background-size: 100%;
+  width: 40px;
+  height: 40px; }
+
+.agregarNodo:hover {
+  background-color: #48A548;
+  /* Green */ }
+
+.cerrarSesion {
+  margin: 0px;
+  position: absolute;
+  top: 38px;
+  left: 1180px;
+  color: black;
+  font-size: 1.4em;
+  text-align: center; }
+
+.cerrarSesion:hover {
+  background-color: #48A548;
+  /* Green */
+  text-decoration: underline;
+  color: black; }
+
+.vacio {
+  width: 1300px;
+  height: 30px; }
+
+.negrita {
+  font-weight: bold; }
+
+.sinNegrita {
+  text-decoration: none; }
+
+.posicionBack {
+  margin: 0px;
+  position: absolute;
+  top: 30px;
+  left: 1280px;
+  background-image: url("./atras.png");
+  background-size: 100%;
+  width: 40px;
+  height: 40px; }
+
+.posicionBackEdit {
+  margin: 0px;
+  position: absolute;
+  top: 30px;
+  left: 800px;
+  background-image: url("./atras.png");
+  background-size: 100%;
+  width: 40px;
+  height: 40px; }
+
+.letraNodo {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 1.8em; }
+  
+.letraVar{
+  color: rgb(255, 255, 255);
 }
 
-.agregarNodo{
-	margin: 0px;
-	position: absolute;
-	top: 30px;
-	left: 1160px;
-	background-image: url('./mas.png');
-	background-size: 100%;
-	//border: 3px;
-  	width: 30px;
-  	height: 30px;
-	
-}
+.editar {
+  margin: 0px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  background-image: url("./lapiz.png");
+  background-size: 100%;
+  width: 20px;
+  height: 20px; }
 
-.letraNodo{
-	margin: 0px;
-	text-align: center;
-	color: rgb(255,255,255); ;
-	//border: 3px;
-    font-size: 1.8em;
-	
-}
-
-.cerrarSesion{
-	margin: 0px;
-	position: absolute;
-	top: 35px;
-	left: 1227px;
-	color: rgb(0,0,0);
-	//border: 3px;
-    font-size: 1.2em;
-	
-}
-
-.editar{
-	margin: 0px;
-	position: absolute;
-	top: 20px;
-	left: 60px;
-	background-image: url('./lapiz.png');
-	background-size: 100%;
-	//border: 3px;
-  	width: 20px;
-  	height: 20px;
-}
-
-.botonShowEditar{
-	margin: 0px;
-	position: absolute;
-	background-image: url('./ver.png');
-	background-size: 100%;
-	top: 40px;
-	left: 1270px;
-	color: rgb(0,0,0);
-	//border: 3px;
-  	width: 40px;
-  	height: 20px;
-	
-}
+.botonShowEditar {
+  margin: 0px;
+  position: absolute;
+  background-image: url("./ver.png");
+  background-size: 100%;
+  top: 40px;
+  left: 1270px;
+  color: black;
+  width: 40px;
+  height: 20px; }
 
 .oval-half-red1 {
-	margin: 0px;
-	position: absolute;
-	top: 215px;
-	left: 180px;
-    width: 250px;
-    height: 100px;
-    -moz-border-radius: 0 50% / 0 100%;
-    -webkit-border-radius: 0 50% / 0 100%;
-    border-radius: 0 50% / 0 100%;
-    background: #5cb85c;
-    border: 3px solid #555;
+  margin: 0px;
+  position: absolute;
+  top: 215px;
+  left: 180px;
+  width: 250px;
+  height: 100px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: rgba(102, 0, 102, .7);
+  border: 2px solid #660066; 
+  opacity: 0.6;
+}
+.oval-half-red1:hover {
+  -moz-border-radius: 0 25% / 0 100%;
+  -webkit-border-radius: 0 25% / 0 100%;
+  border-radius: 0 25% / 0 100%;
+  opacity: 0.9;
+  background: rgba(102, 0, 102, .9);
+  width: 280px;
+  transition: 0.5s;
 }
 
 .oval-half-red2 {
-	margin: 0px;
-	position: absolute;
-	top: 215px;
-	left: 550px;
-     width: 250px;
-     height: 100px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #5cb85c;
-     border: 3px solid #555;
+  margin: 0px;
+  position: absolute;
+  top: 215px;
+  left: 550px;
+  width: 250px;
+  height: 100px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: rgba(255, 95, 95, .7);
+  border: 2px solid #FA5F5F; 
+  opacity: 0.6;
 }
 
+.oval-half-red2:hover {
+  -moz-border-radius: 0 25% / 0 100%;
+  -webkit-border-radius: 0 25% / 0 100%;
+  border-radius: 0 25% / 0 100%;
+  opacity: 0.9;
+  background: rgba(255, 95, 95, .9);
+  width: 280px;
+  transition: 0.5s;
+
+}
 .oval-half-red3 {
-	margin: 0px;
-	position: absolute;
-	top: 215px;
-	left: 920px;
-     width: 250px;
-     height: 100px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #5cb85c;
-     border: 3px solid #555;
+  margin: 0px;
+  position: absolute;
+  top: 215px;
+  left: 920px;
+  width: 250px;
+  height: 100px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: rgba(255, 162, 20, .7);
+  border: 2px solid #FFA200; 
+  opacity: 0.6;
 }
+.oval-half-red3:hover {
+  -moz-border-radius: 0 25% / 0 100%;
+  -webkit-border-radius: 0 25% / 0 100%;
+  border-radius: 0 25% / 0 100%;
+  opacity: 0.9;
+  background: rgba(255, 162, 20,.9);
+  width: 280px;
+  transition: 0.5s;
+}
+
 .oval-half-red4 {
-	margin: 0px;
-	position: absolute;
-	top: 410px;
-	left: 160px;
-     width: 250px;
-     height: 100px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #5cb85c;
-     border: 3px solid #555;
+  margin: 0px;
+  position: absolute;
+  top: 410px;
+  left: 160px;
+  width: 250px;
+  height: 100px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: rgba(71, 238, 45, .7);
+  border: 2px solid #47EE2D; 
+  opacity: 0.6;
 }
+.oval-half-red4:hover {
+  -moz-border-radius: 0 25% / 0 100%;
+  -webkit-border-radius: 0 25% / 0 100%;
+  border-radius: 0 25% / 0 100%;
+  opacity: 0.9;
+  background: rgba(71, 238, 45,.9);
+  width: 280px;
+  transition: 0.5s;
+}
+
 .oval-half-red5 {
-	margin: 0px;
-	position: absolute;
-	top: 410px;
-	left: 550px;
-     width: 250px;
-     height: 100px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #5cb85c;
-     border: 3px solid #555;
+  margin: 0px;
+  position: absolute;
+  top: 410px;
+  left: 550px;
+  width: 250px;
+  height: 100px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: rgba(58, 64, 247, .7);
+  border: 2px solid #3A40F7; 
+  opacity: 0.6;
 }
+
+.oval-half-red5:hover {
+  -moz-border-radius: 0 25% / 0 100%;
+  -webkit-border-radius: 0 25% / 0 100%;
+  border-radius: 0 25% / 0 100%;
+  opacity: 0.9;
+  background: rgba(58, 64, 247,.9);
+  width: 280px;
+  transition: 0.5s;
+}
+
 .oval-half-red6 {
-	margin: 0px;
-	position: absolute;
-	top: 410px;
-	left: 920px;
-    width: 250px;
-    height: 100px;
-    -moz-border-radius: 0 50% / 0 100%;
-    -webkit-border-radius: 0 50% / 0 100%;
-    border-radius: 0 50% / 0 100%;
-    background: #5cb85c;
-    border: 3px solid #555;
+  margin: 0px;
+  position: absolute;
+  top: 410px;
+  left: 920px;
+  width: 250px;
+  height: 100px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: rgba(253, 129, 245, .7);
+  border: 2px solid #FD81F5; 
+  opacity: 0.6;
 }
-
-.dioxido{
-	margin: 0px;
-	position: absolute;
-	font-size: 1.6em;
-	top: 330px;
-	left: 200px;
-	font-weight: 0px;
-	border: none;
-	background: transparent;
-	
-}
-
-.monoxido{
-	margin: 0px;
-	position: absolute;
-	font-size: 1.6em;
-	top: 330px;
-	left: 580px;
-	font-weight: 20px;
-	border: none;
-	background: transparent;
-}
-
-.ozono1{
-	margin: 0px;
-	position: absolute;
-	font-size: 1.6em;
-	top: 330px;
-	left: 960px;
-	font-weight: 20px;
-	border: none;
-	background: transparent;
-	
-}
-
-.humedad1{
-	margin: 0px;
-	position: absolute;
-	font-size: 1.6em;
-	top: 520px;
-	left: 250px;
-	font-weight: 20px;
-	border: none;
-	background: transparent;
-}
-
-.temperatura{ 
-	margin: 0px;
-	position: absolute;
-	font-size: 1.6em;
-	top: 520px;
-	left: 595px;
-	font-weight: 20px;
-	border: none;
-	background: transparent;
-	
-}
-
-.hcho{ 
-	margin: 0px;
-	position: absolute;
-	font-size: 1.6em;
-	top: 520px;
-	left: 960px;
-	font-weight: 20px;
-	border: none;
-	background: transparent;
-	
-}
-
-.botonedit{
-	margin: 0px;
-	position: absolute;
-	size: 50px;
-	font-size: 1.6em;
-	size: 50px;
-	top: 570px;
-	left: 40px;
-	font-weight: 12px;
-	width: 80px;
-  	height: 50px;
-
-	
-}
-
-.botonback{
-	margin: 0px;
-	position: absolute;
-	font-size: 1.6em;
-	size: 50px;
-	top: 570px;
-	left: 140px;
-	font-weight: 12px;
-  	width: 80px;
-  	height: 50px;
+.oval-half-red6:hover {
+  -moz-border-radius: 0 25% / 0 100%;
+  -webkit-border-radius: 0 25% / 0 100%;
+  border-radius: 0 25% / 0 100%;
+  opacity: 0.9;
+  background: rgba(253, 129, 245,.9);
+  width: 280px;
+  transition: 0.5s;
 
 }
 
-.borrar{
-	margin: 0px;
-	position: absolute;
-	top: 70px;
-	left: 195px;
-	background-image: url('./basura.png');
-	background-size: 100%;
-	//border: 3px;
-  	width: 20px;
-  	height: 20px;
+.dioxido {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.6em;
+  top: 330px;
+  left: 200px;
+  font-weight: 0px;
+  border: none;
+  background: transparent; }
+
+.monoxido {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.6em;
+  top: 330px;
+  left: 580px;
+  
+  font-weight: 20px;
+  border: none;
+  background: transparent; }
+
+.ozono1 {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.6em;
+  top: 330px;
+  left: 1000px;
+  font-weight: 20px;
+  border: none;
+  background: transparent; }
+
+.humedad1 {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.6em;
+  top: 520px;
+  left: 250px;
+  font-weight: 20px;
+  border: none;
+  background: transparent; }
+
+.temperatura {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.6em;
+  top: 520px;
+  left: 595px;
+  font-weight: 20px;
+  border: none;
+  background: transparent; }
+
+.hcho {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.6em;
+  top: 520px;
+  left: 1000px;
+  font-weight: 20px;
+  border: none;
+  background: transparent; }
+
+.padding {
+  padding-top: 40px; }
+
+.botonesNodos {
+  margin: 0px;
+  color: white;
+  background: #48a548;
+  outline: none; }
+
+.botonesNodos:hover {
+  background-color: white;
+  /* Green */
+  border-color: #48a548;
+  color: black; }
+
+.botonback {
+  margin: 0px;
+  position: absolute;
+  font-size: 1.6em;
+  size: 50px;
+  top: 570px;
+  left: 140px;
+  font-weight: 12px;
+  width: 80px;
+  height: 50px; }
+
+.borrar {
+  margin: 0px;
+  position: absolute;
+  top: 70px;
+  left: 195px;
+  background-image: url("./basura.png");
+  background-size: 100%;
+  width: 20px;
+  height: 20px; }
+
+.imagenNodo {
+  margin: 0px;
+  width: 255px;
+  height: 145px;
+  	/*background-image: url('./alpujarra.jpg');
+  background-size: 100%;
+  border: 3px solid black;*/ }
+
+.cuadro2 {
+  position: absolute;
+  /*nos posicionamos en el centro del navegador*/
+  top: 25%;
+  left: 35%;
+  /*determinamos una anchura*/
+  width: 390px;
+  /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+  /*determinamos una altura*/ }
+
+.air {
+  font-weight: 30px;
+  font-size: 3.2em;
+  color: black;
+  margin: 0px;
+  position: absolute;
+  top: 30px;
+  left: 30px; }
+
+.plaza {
+  margin: 0px;
+  position: absolute;
+  top: 150px;
+  left: 95px;
+  font-weight: 15px;
+  font-size: 3.6em;
+  color: #32c864; }
+  
+.plazaShow{
+  margin: 0px;
+  position: absolute;
+  top: 110px;
+  left: 95px;
+  font-weight: 15px;
+  font-size: 2.8em;
+  color: #32c864; }
+
+.var {
+  font-weight: 45px;
+  font-size: 1.9em;
+  position: absolute;
+  top: 50px;
+  left: 975px;
+  margin: 0px; }
+
+.var:hover {
+  background-color: #ededed;
+  color: black;
+  text-decoration: #ededed; 
+    
 }
 
-.imagenNodo{
-	margin: 0px;
-	background-image: url('./alpujarra.jpg');
-	background-size: 100%;
-	border: 3px solid black;
-}
+.est {
+  font-weight: 45px;
+  font-size: 1.9em;
+  position: absolute;
+  margin: 0px;
+  left: 1105px;
+  top: 35px; }
 
-.cuadro2{
-  	position: absolute;
-	/*nos posicionamos en el centro del navegador*/
-	top:25%;
-	left:38%;
-	/*determinamos una anchura*/
-	width: 360px;
-	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
-	/*determinamos una altura*/
-}
+.dropEst {
+  background-color: white;
+  border-bottom-color: white;
+  font-size: 1.0em;
+  border-color: white; }
 
-.air{
-	font-weight: 30px;
-	font-size: 3.2em;
-	color:rgb(0,0,0); 
-	margin: 0px;
-	position: absolute;
-	top: 30px;
-	left: 30px;
-}
+.field {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  margin: 0px; }
 
-.plaza{
-	margin: 0px;
-	position: absolute;
-	top: 110px;
-	left: 95px;
-	font-weight: 15px;
-	font-size: 2.8em;
-	color:rgb(50,200,100); 
-}
+.nav {
+  background-color: transparent; }
 
-.var{
-	font-weight: 45px;
-	font-size: 1.9em;
-	position: absolute;
-	top: 40px;
-	left: 975px;
-	margin: 0px;
-}
+.large-padding {
+  padding: 30px 30px; }
 
-.est{
-	font-weight: 45px;
-	font-size: 1.9em;
-    position: absolute;
-    top: 40px;
-	left: 1143px;
-    margin: 0px;
-}
-
-.field{
-	position: absolute;
-	top: 220px;
-	left: 30px;
-	margin: 0px;
-}
-
-.nav{
-	background-color: transparent;
-}
-
-.large-padding{
-	padding: 30px 30px;
-}
-
-.contactanos{
-    text-align: center;
-}
+.contactanos {
+  text-align: center; }

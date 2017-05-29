@@ -1,47 +1,38 @@
 <html class="FondoBlanco fondoTitle">
 
 
-  <head>
-  </head>
-<body>
-  	<header>
-  		<nav class="nav large-padding">
-  			<ul class="list-unstyled">
-  				<ol class="list-unstyled">
-  					<h1 class = "no-margin air col-md"
-             >
-            <%= link_to "AiRescue", root_path%>
-            </h1>
-  				</ol>
-          </ol>
-  				<ol class="var list-unstyled">
-  					<%= link_to "Variables", node_path%>
-  				</ol>
-  				<ol class="est list-unstyled">
-  					<%= link_to "Estadisticas semanales", week_graphic_path(@node)%>	
-  				</ol>
-  				<ol class="est list-unstyled">
-  					<%= link_to "Estadisticas diarias", day_graphic_path(@node)%>	
-  				</ol>
-  			</ul>
-  		</nav>
-      <h2 class = "plaza">
-          <%= @node.name %>
-      </h2>
+<div class="">
+
+    <% if user_signed_in? %>
+        <%= link_to '', edit_node_path(@node) , class:"btn editShow"%>   
+    <%end%>
+
+    <p class = "tituloNodosShow"><%= link_to "AiRescue", root_path, class: "tituloNodosShow"%></p>
+    <p class="var">
+      	<%= link_to "Variables", node_path%>
+    </p>
+                
+    <div class="dropdown est">
+        <button class="btn dropEst" id="menu1" data-toggle="dropdown">Estadisticas
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" href="<%=week_graphic_path(@node)%>">Estadisticas semanales</a></li>
+            <li role="presentation"><a role="menuitem" href="<%=day_graphic_path(@node)%>">Estadisticas diarias</a></li>
+        </ul>
+    </div>
     
-  	</header>
-    <%= yield %>
-  </body>
+</div>
 
-
+<h2 class = "plazaShow">
+    <%= @node.name %>
+</h2>
+    
 <p id="notice"><%= notice %></p>
-
-
 </br>
 </br>
 </br>
 
-<div class="container colorFondoBoton">
+<div class="container">
   <button type="button" class="btn btn-lg botonInfo" data-toggle="modal" data-target="#myModal">''</button>
 
   <!-- Modal -->
@@ -98,8 +89,10 @@
 </div>
 
 <div class="oval-half-red3">
+    <div class="letraVar">
+    </div>
+</div>
     
-
 <div class="humedad1">
        Humedad
 </div>
@@ -127,14 +120,5 @@
         <%= @temp.dateTemperature %>  ppm
     </div>
 </div>
-
-
-
-<% if user_signed_in? %>
-    <%= link_to 'Edit', edit_node_path(@node) , class:"btn btn-lg btn-success botonedit"%>
-    <%= link_to 'Back', nodes_path, class:"btn btn-lg btn-success botonback" %>
-<%else%>
-    <%= link_to 'Back', nodes_path, class:"btn btn-lg btn-success botonback" %>
-<%end%>
 
 </html>
