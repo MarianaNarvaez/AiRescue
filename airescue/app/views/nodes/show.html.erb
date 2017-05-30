@@ -45,11 +45,11 @@
         </div>
         <div class="modal-body">
             <div class= "row tam">
-                <div class="negrita">&#160 &#160 &#160 &#160 Direccion:&#160 &#160 &#160 &#160 &#160 &#160</div>
+                <div class="negrita">&#160 &#160 &#160 &#160 Dirección:&#160 &#160 &#160 &#160 &#160 &#160</div>
                 <div><%= @node.address %></div>
             </div>    
             <div class= "row tam">
-                <div class="negrita">&#160 &#160 &#160 &#160 Descripcion: &#160 &#160 &#160 </div>
+                <div class="negrita">&#160 &#160 &#160 &#160 Descripción: &#160 &#160 &#160 </div>
                 <div><%= @node.description %></div>
             </div>
             <div class= "row tam">
@@ -71,7 +71,14 @@
 
 <div class="oval-half-red1">
     <div class="letraVar">
-        <%= @dioxide.dataDioxide %>  ppm
+        <% unless @dioxide.nil? %>
+            <%= @dioxide.dataDioxide %>  ppm
+        <%end%>
+        <% if @dioxide.nil? %>
+            <h> 0 ppm </h>
+        <%end%>
+        
+        
     </div>
 </div>
 
@@ -80,7 +87,13 @@
 </div>      
 <div class="oval-half-red2">
     <div class="letraVar">
-        <%= @monoxide.dataMonoxide %> ppm
+        <% unless @monoxide.nil? %>
+            <%= @monoxide.dataMonoxide %> ppm
+        <%end%>
+        <% if @monoxide.nil? %>
+            <h> 0 ppm </h>
+        <%end%>
+        
     </div>
 </div>
 
@@ -90,6 +103,13 @@
 
 <div class="oval-half-red3">
     <div class="letraVar">
+        <% unless @ozone.nil? %>
+            <%= @ozone.dataOzone %> ppm
+        <%end%>
+        
+        <% if @ozone.nil? %>
+            <h> 0 ppm </h>
+        <%end%>
     </div>
 </div>
     
@@ -98,7 +118,12 @@
 </div>
 <div class="oval-half-red4">
     <div class="letraVar">
-        <%= @humed.dataHumidity %> %
+        <% unless @humed.nil? %>
+            <%= @humed.dataHumidity %> %
+        <%end%>
+        <% if @humed.nil? %>
+            <h> 0 % </h>
+        <%end%>
     </div>
 </div>
 
@@ -108,7 +133,13 @@
 
 <div class="oval-half-red5">
     <div class="letraVar">
-        <%= @temp.dateTemperature %>  °C
+        <% unless @temp.nil? %>
+            <%= @temp.dateTemperature %>  °C
+        <%end%>
+        <% if @temp.nil? %>
+            <h> 0 °C </h>
+        <%end%>
+        
     </div>
 </div>
 
@@ -117,8 +148,13 @@
 </div>
 <div class="oval-half-red6">
     <div class="letraVar">
-        <%= @temp.dateTemperature %>  ppm
+        <% unless @temp.nil? %>
+            <%= @temp.dateTemperature %>  °C
+        <%end%>
+        
+        <% if @temp.nil? %>
+            <h> °C </h>
+        <%end%>
     </div>
 </div>
-
 </html>

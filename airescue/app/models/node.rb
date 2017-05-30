@@ -1,9 +1,10 @@
 class Node < ApplicationRecord
-    has_many :carbon_dioxide
-    has_many :carbon_monoxide
-    has_many :ozone
-    has_many :humidity
-    has_many :temperature
+    has_many :carbon_dioxide, dependent: :destroy
+    has_many :carbon_monoxide, dependent: :destroy
+    has_many :ozone, dependent: :destroy
+    has_many :humidity, dependent: :destroy
+    has_many :temperature, dependent: :destroy
+    
     
     has_attached_file :cover, styles: { medium: "780x490", thumb:"800x600"}
     validates_attachment_content_type :cover, content_type: /\Aimage\/.*\Z/
