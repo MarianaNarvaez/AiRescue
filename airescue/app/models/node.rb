@@ -9,7 +9,9 @@ class Node < ApplicationRecord
     has_attached_file :cover, styles: { medium: "780x490", thumb:"800x600"}
     validates_attachment_content_type :cover, content_type: /\Aimage\/.*\Z/
     
-    validates :name, presence: true
-    validates :address, presence: true
-    validates :description, presence: true
+    validates :name, presence: {:message => "Usted debe ingresar un nombre"}, 
+        length: {minimum: 2, maximum: 50, :message => "El título debe tener entre 
+                2 y 50 caracteres"}
+    validates :address, presence: {:message => "Usted debe ingresar un Dirección"}
+    validates :description, presence: {:message => "Usted debe ingresar una descripción"}
 end
