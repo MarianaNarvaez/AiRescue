@@ -140,11 +140,16 @@ html, body {
   position: absolute;
   top: 40px;
   left: 910px;
-  background-image: url("./info.jpg");
+  background-color: #48A548;
+  background-image: url("./info.png");
   background-size: 100%;
-  border: 3px;
+  border: 0px;
   width: 40px;
   height: 40px; }
+  
+  .colorContainer{
+    background-color: white;
+  }
 
 .agregarNodo {
   margin: 0px;
@@ -239,16 +244,16 @@ html, body {
 .oval-half-red1 {
   margin: 0px;
   position: absolute;
-  top: 215px;
+  top: 240px;
   left: 180px;
   width: 250px;
   height: 100px;
   -moz-border-radius: 0 50% / 0 100%;
   -webkit-border-radius: 0 50% / 0 100%;
   border-radius: 0 50% / 0 100%;
-  background: rgba(102, 0, 102, .7);
+  background: rgba(102, 0, 102, .8);
   border: 2px solid #660066; 
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .oval-half-red1:hover {
   -moz-border-radius: 0 25% / 0 100%;
@@ -263,16 +268,16 @@ html, body {
 .oval-half-red2 {
   margin: 0px;
   position: absolute;
-  top: 215px;
+  top: 240px;
   left: 550px;
   width: 250px;
   height: 100px;
   -moz-border-radius: 0 50% / 0 100%;
   -webkit-border-radius: 0 50% / 0 100%;
   border-radius: 0 50% / 0 100%;
-  background: rgba(255, 95, 95, .7);
+  background: rgba(255, 95, 95, .8);
   border: 2px solid #FA5F5F; 
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .oval-half-red2:hover {
@@ -280,7 +285,7 @@ html, body {
   -webkit-border-radius: 0 25% / 0 100%;
   border-radius: 0 25% / 0 100%;
   opacity: 0.9;
-  background: rgba(255, 95, 95, .9);
+  background: rgba(255, 95, 95, .8);
   width: 280px;
   transition: 0.5s;
 
@@ -288,16 +293,16 @@ html, body {
 .oval-half-red3 {
   margin: 0px;
   position: absolute;
-  top: 215px;
+  top: 240px;
   left: 920px;
   width: 250px;
   height: 100px;
   -moz-border-radius: 0 50% / 0 100%;
   -webkit-border-radius: 0 50% / 0 100%;
   border-radius: 0 50% / 0 100%;
-  background: rgba(255, 162, 20, .7);
+  background: rgba(255, 162, 20, .8);
   border: 2px solid #FFA200; 
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .oval-half-red3:hover {
   -moz-border-radius: 0 25% / 0 100%;
@@ -312,23 +317,23 @@ html, body {
 .oval-half-red4 {
   margin: 0px;
   position: absolute;
-  top: 410px;
+  top: 435px;
   left: 160px;
   width: 250px;
   height: 100px;
   -moz-border-radius: 0 50% / 0 100%;
   -webkit-border-radius: 0 50% / 0 100%;
   border-radius: 0 50% / 0 100%;
-  background: rgba(71, 238, 45, .7);
-  border: 2px solid #47EE2D; 
-  opacity: 0.6;
+  background: rgba(3, 201, 36, .8);
+  border: 2px solid #009900; 
+  opacity: 0.7;
 }
 .oval-half-red4:hover {
   -moz-border-radius: 0 25% / 0 100%;
   -webkit-border-radius: 0 25% / 0 100%;
   border-radius: 0 25% / 0 100%;
   opacity: 0.9;
-  background: rgba(71, 238, 45,.9);
+  background: rgba(3, 201, 36,.9);
   width: 280px;
   transition: 0.5s;
 }
@@ -336,16 +341,16 @@ html, body {
 .oval-half-red5 {
   margin: 0px;
   position: absolute;
-  top: 410px;
+  top: 435px;
   left: 550px;
   width: 250px;
   height: 100px;
   -moz-border-radius: 0 50% / 0 100%;
   -webkit-border-radius: 0 50% / 0 100%;
   border-radius: 0 50% / 0 100%;
-  background: rgba(58, 64, 247, .7);
-  border: 2px solid #3A40F7; 
-  opacity: 0.6;
+  background: rgba(0, 0, 204, .8);
+  border: 2px solid #0000CC; 
+  opacity: 0.7;
 }
 
 .oval-half-red5:hover {
@@ -353,7 +358,7 @@ html, body {
   -webkit-border-radius: 0 25% / 0 100%;
   border-radius: 0 25% / 0 100%;
   opacity: 0.9;
-  background: rgba(58, 64, 247,.9);
+  background: rgba(0, 0, 204,.9);
   width: 280px;
   transition: 0.5s;
 }
@@ -361,23 +366,23 @@ html, body {
 .oval-half-red6 {
   margin: 0px;
   position: absolute;
-  top: 410px;
+  top: 435px;
   left: 920px;
   width: 250px;
   height: 100px;
   -moz-border-radius: 0 50% / 0 100%;
   -webkit-border-radius: 0 50% / 0 100%;
   border-radius: 0 50% / 0 100%;
-  background: rgba(253, 129, 245, .7);
-  border: 2px solid #FD81F5; 
-  opacity: 0.6;
+  background: rgba(204, 0, 102, .8);
+  border: 2px solid #CC0066; 
+  opacity: 0.7;
 }
 .oval-half-red6:hover {
   -moz-border-radius: 0 25% / 0 100%;
   -webkit-border-radius: 0 25% / 0 100%;
   border-radius: 0 25% / 0 100%;
   opacity: 0.9;
-  background: rgba(253, 129, 245,.9);
+  background: rgba(204, 0, 102,.9);
   width: 280px;
   transition: 0.5s;
 
@@ -387,7 +392,7 @@ html, body {
   margin: 0px;
   position: absolute;
   font-size: 1.6em;
-  top: 330px;
+  top: 355px;
   left: 200px;
   font-weight: 0px;
   border: none;
@@ -397,7 +402,7 @@ html, body {
   margin: 0px;
   position: absolute;
   font-size: 1.6em;
-  top: 330px;
+  top: 355px;
   left: 580px;
   
   font-weight: 20px;
@@ -408,7 +413,7 @@ html, body {
   margin: 0px;
   position: absolute;
   font-size: 1.6em;
-  top: 330px;
+  top: 355px;
   left: 1000px;
   font-weight: 20px;
   border: none;
@@ -418,7 +423,7 @@ html, body {
   margin: 0px;
   position: absolute;
   font-size: 1.6em;
-  top: 520px;
+  top: 545px;
   left: 250px;
   font-weight: 20px;
   border: none;
@@ -428,7 +433,7 @@ html, body {
   margin: 0px;
   position: absolute;
   font-size: 1.6em;
-  top: 520px;
+  top: 545px;
   left: 595px;
   font-weight: 20px;
   border: none;
@@ -438,7 +443,7 @@ html, body {
   margin: 0px;
   position: absolute;
   font-size: 1.6em;
-  top: 520px;
+  top: 545px;
   left: 1000px;
   font-weight: 20px;
   border: none;
@@ -447,7 +452,7 @@ html, body {
 .padding {
   padding-top: 40px; }
 
-.botonesNodos {
+.botonesNo4dos {
   margin: 0px;
   color: white;
   background: #48a548;
@@ -519,11 +524,13 @@ html, body {
 .plazaShow{
   margin: 0px;
   position: absolute;
-  top: 110px;
+  top: 150px;
   left: 95px;
   font-weight: 15px;
   font-size: 2.8em;
-  color: #32c864; }
+  color: #32c864; 
+  
+}
 
 .var {
   font-weight: 45px;
@@ -549,10 +556,12 @@ html, body {
   top: 35px; }
 
 .dropEst {
-  background-color: white;
-  border-bottom-color: white;
+  color: white;
+  background-color: #48A548;
+  border-bottom-color: #48A548;
   font-size: 1.0em;
-  border-color: white; }
+  border-color: #48A548;
+  }
 
 .field {
   position: absolute;
