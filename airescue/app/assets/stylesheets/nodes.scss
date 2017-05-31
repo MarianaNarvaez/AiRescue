@@ -12,6 +12,77 @@ html, body {
 .box:hover a{opacity:0.8; background:#FFFFFF; color:#000000; margin:-40px 0px 0px 15px;  border-radius:1px; }
 .box a:hover{border:1px solid #00DFDF;transition:all 0.5s ease-in-out;   }
 
+.temGraf{
+  position: absolute;
+  top: 150px;
+  left: 160px;
+}
+.dioGraf{
+  position: absolute;
+  top: 150px;
+  left: 560px;
+}
+.monoGraf{
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+}
+.humGraf{
+  position: absolute;
+  top: 540px;
+  left: 160px;
+}
+.ozoGraf{
+  position: absolute;
+  top: 540px;
+  left: 620px;
+  
+}
+.nitroGraf{
+  position: absolute;
+  top: 540px;
+  left: 1000px;
+  
+}
+
+.grafica1{
+  position: absolute;
+  top: 210px;
+  left: 35px;
+}
+
+.grafica2{
+  position: absolute;
+  top: 210px;
+  left: 460px;
+
+}
+
+.grafica3{
+  position: absolute;
+  top: 210px;
+  left: 920px;
+
+}
+
+.grafica4{
+  position: absolute;
+  top: 590px;
+  left: 35px;
+}
+
+.grafica5{
+  position: absolute;
+  top: 590px;
+  left: 460px;
+}
+.grafica6{
+  position: absolute;
+  top: 590px;
+  left: 920px;
+}
+  
+
   
 .FondoBlanco {
   background-color: white; }

@@ -9,14 +9,11 @@
 
       // Set a callback to run when the Google Visualization API is loaded.
       google.charts.setOnLoadCallback(drawTempDay);
-    
       google.charts.setOnLoadCallback(drawCarbon_dioxidesDay);
-      
       google.charts.setOnLoadCallback(drawcarbon_monoxidesDay);
-      
       google.charts.setOnLoadCallback(drawHumedDay);
-      
       google.charts.setOnLoadCallback(drawOzonesDay);
+      google.charts.setOnLoadCallback(drawNitroDay);
       
 
       // draws dayli graphics
@@ -34,32 +31,11 @@
                        'width':400,
                        'height':300,
                        hAxis: {title: 'Tiempo'},
-                       vAxis: {title: 'Grados'}};
+                       vAxis: {title: 'Grados °C'}};
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.LineChart (document.getElementById('chart_hora_temp'));
         chart.draw(data, options);
-      }
-      
-      // draws weekly graphics
-      function drawTempWeek() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string','Dia');
-        data.addColumn('number','Grados');
-        data.addRows([
-           <% @temp.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dateTemperature.to_i%>],
-          <%end%>
-        ]);
-          
-        var options = {'title':'Reporte Semanal Nodo <%= @nombre%>',
-                       'width':400,
-                       'height':300,
-                       hAxis: {title: 'Tiempo'},
-                       vAxis: {title: 'Grados'}};
-                       
-        var chart = new google.visualization.LineChart(document.getElementById('chart_week_temp'));
-          chart.draw(data, options);
       }
       
        // draws dayli graphics
@@ -84,27 +60,6 @@
         chart.draw(data, options);
       }
       
-      // draws weekly graphics
-      function drawCarbon_dioxidesWeek() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string','Dia');
-        data.addColumn('number','ppm');
-        data.addRows([
-           <% @dioxide.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataDioxide.to_i%>],
-          <%end%>
-        ]);
-          
-        var options = {'title':'Reporte Semanal Nodo <%= @nombre%>',
-                       'width':400,
-                       'height':300,
-                       hAxis: {title: 'Tiempo'},
-                       vAxis: {title: 'ppm'}};
-                       
-        var chart = new google.visualization.LineChart(document.getElementById('chart_week_Carbon_dioxides'));
-          chart.draw(data, options);
-      }
-      
       function drawcarbon_monoxidesDay() { 
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'HoraDelDia');
@@ -126,31 +81,10 @@
         chart.draw(data, options);
       }
       
-      // draws weekly graphics
-      function drawcarbon_monoxidesWeek() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string','Dia');
-        data.addColumn('number','ppm');
-        data.addRows([
-          <% @monoxide.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataMonoxide.to_i%>],
-          <%end%>
-        ]);
-          
-        var options = {'title':'Reporte Semanal Nodo <%= @nombre%>',
-                       'width':400,
-                       'height':300,
-                       hAxis: {title: 'Tiempo'},
-                       vAxis: {title: 'ppm'}};
-                       
-        var chart = new google.visualization.LineChart(document.getElementById('chart_week_carbon_monoxides'));
-          chart.draw(data, options);
-      }
-      
       function drawHumedDay() { 
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'HoraDelDia');
-        data.addColumn('number', 'procentaje');
+        data.addColumn('number', 'porcentaje');
         data.addRows([
           <% @humed.each do |value|%>
           ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataHumidity.to_i%>],
@@ -168,31 +102,10 @@
         chart.draw(data, options);
       }
       
-      // draws weekly graphics
-      function drawHumedWeek() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string','Dia');
-        data.addColumn('number','procentaje');
-        data.addRows([
-           <% @humed.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataHumidity.to_i%>],
-          <%end%>
-        ]);
-          
-        var options = {'title':'Reporte Semanal Nodo <%= @nombre%>',
-                       'width':400,
-                       'height':300,
-                       hAxis: {title: 'Tiempo'},
-                       vAxis: {title: 'Porcentaje (%)'}};
-                       
-        var chart = new google.visualization.LineChart(document.getElementById('chart_week_Humed'));
-          chart.draw(data, options);
-      }
-      
       function drawOzonesDay() { 
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'HoraDelDia');
-        data.addColumn('number', 'Grados');
+        data.addColumn('number', 'ppm');
         data.addRows([
           <% @ozone.each do |value|%>
           ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataOzone.to_i%>],
@@ -210,25 +123,25 @@
         chart.draw(data, options);
       }
       
-      // draws weekly graphics
-      function drawOzoneWeek() {
+      function drawNitroDay() { 
         var data = new google.visualization.DataTable();
-        data.addColumn('string','Dia');
-        data.addColumn('number','Grados');
+        data.addColumn('string', 'HoraDelDia');
+        data.addColumn('number', 'Grados');
         data.addRows([
-           <% @ozone.each do |value|%>
-          ['<%= value.created_at.strftime("%a")%>', <%= value.dataOzone.to_i%>],
+          <% @nitrogen.each do |value|%>
+          ['<%= value.created_at.strftime("%H:00")%>', <%= value.dataNitrogen.to_i%>],
           <%end%>
-        ]);
-          
-        var options = {'title':'Reporte Semanal Nodo <%= @nombre%>',
+          ]);
+        // Set chart options
+        var options = {'title':'Reporte diario Nodo <%= @nombre%>',
                        'width':400,
                        'height':300,
                        hAxis: {title: 'Tiempo'},
-                       vAxis: {title: 'm / m^3 '}};
-                       
-        var chart = new google.visualization.LineChart(document.getElementById('chart_week_Ozone'));
-          chart.draw(data, options);
+                       vAxis: {title: 'Grados °C'}};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.LineChart (document.getElementById('chart_hora_nitro'));
+        chart.draw(data, options);
       }
       
     </script>
@@ -239,35 +152,36 @@
     <table class="columns">
       <tr>
         <td><div id="chart_hora_temp"></div></td>
-        <td><div id="chart_week_temp"></div></td>
       </tr>
     </table>
     <h3>Dióxido de carbono</h3>
     <table class="columns">
       <tr>
         <td><div id="chart_hora_Carbon_dioxides"></div></td>
-        <td><div id="chart_week_Carbon_dioxides"></div></td>
       </tr>
     </table>
     <h3>Monóxido de carbono</h3>
     <table class="columns">
       <tr>
         <td><div id="chart_hora_carbon_monoxides"></div></td>
-        <td><div id="chart_week_carbon_monoxides"></div></td>
       </tr>
     </table>
     <h3>Humedad</h3>
     <table class="columns">
       <tr>
         <td><div id="chart_hora_Humed"></div></td>
-        <td><div id="chart_week_Humed"></div></td>
       </tr>
     </table>
     <h3>Ozono</h3>
     <table class="columns">
       <tr>
         <td><div id="chart_hora_ozone"></div></td>
-        <td><div id="chart_week_Ozone"></div></td>
+      </tr>
+    </table>
+    <h3>Nitrogeno</h3>
+    <table class="columns">
+      <tr>
+        <td><div id="chart_hora_nitro"></div></td>
       </tr>
     </table>
   </body>
