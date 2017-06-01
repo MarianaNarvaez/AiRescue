@@ -5,11 +5,11 @@
 <div class="encabezado">
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
-        <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
         <%= link_to '', new_node_path, class: "agregarNodo" %>
         <br>
     <%else%>
-        <%= link_to "Iniciar sesion", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to "Iniciar sesión", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
     <%end%>
     
     
@@ -58,10 +58,10 @@
 <div class="contactanos">
     <div>E-mail: airescue@gmail.com
         </br>
-        Telefono: 4322334 ext: 453 &#160
+        Teléfono: 4322334 ext: 453 &#160
         Whatsapp: 3217166950
         </br>
-        Direccion: Crr 29 CC # 37-09 
+        Dirección: Crr 29 CC # 37-09 
         </br>
         Universidad EAFIT
     </div>

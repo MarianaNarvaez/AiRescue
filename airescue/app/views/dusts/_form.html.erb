@@ -1,0 +1,27 @@
+<%= form_for(dust) do |f| %>
+  <% if dust.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(dust.errors.count, "error") %> prohibited this dust from being saved:</h2>
+
+      <ul>
+      <% dust.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :dataDust %>
+    <%= f.text_field :dataDust %>
+  </div>
+
+  <div class="field">
+    <%= f.label :node_id %>
+    <%= f.text_field :node_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :dusts
   resources :nitrogens
   resources :ozones
   resources :carbon_dioxides
@@ -20,6 +21,7 @@ Rails.application.routes.draw do
     resources :carbon_dioxides, only: [:index, :create, :destroy, :update, :show]
     resources :ozones, only: [:index, :create, :destroy, :update, :show]
     resources :nitrogens, only: [:index, :create, :destroy, :update, :show]
+    resources :dusts, only: [:index, :create, :destroy, :update, :show]
   end
   root :to => 'nodes#index'
 end
