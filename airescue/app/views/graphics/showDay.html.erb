@@ -1,5 +1,16 @@
 <html>
   <head>
+    <div class="encabezado">
+      <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
+      <%= link_to "Estadisticas semanales", week_graphic_path(@node), class: "estSem", style: 'color:#FFFFFF;'%>
+      <% if user_signed_in? %>
+        <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to '', new_node_path, class: "agregarNodo" %>
+        <br>
+      <%else%>
+        <%= link_to "Iniciar sesion", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+      <%end%>
+    </div>
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -148,40 +159,40 @@
   </head>
 
   <body>
-    <h3>Temperatura</h3>
+    <h3 class = "temGraf">Temperatura</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_hora_temp"></div></td>
+        <td><div id="chart_hora_temp" class= "grafica1"></div></td>
       </tr>
     </table>
-    <h3>Dióxido de carbono</h3>
+    <h3 class = "dioGraf">Dióxido de carbono</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_hora_Carbon_dioxides"></div></td>
+        <td><div id="chart_hora_Carbon_dioxides" class= "grafica2"></div></td>
       </tr>
     </table>
-    <h3>Monóxido de carbono</h3>
+    <h3 class = "monoGraf">Monóxido de carbono</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_hora_carbon_monoxides"></div></td>
+        <td><div id="chart_hora_carbon_monoxides" class= "grafica3"></div></td>
       </tr>
     </table>
-    <h3>Humedad</h3>
+    <h3 class = "humGraf">Humedad</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_hora_Humed"></div></td>
+        <td><div id="chart_hora_Humed" class= "grafica4"></div></td>
       </tr>
     </table>
-    <h3>Ozono</h3>
+    <h3 class = "ozoGraf">Ozono</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_hora_ozone"></div></td>
+        <td><div id="chart_hora_ozone" class= "grafica5"></div></td>
       </tr>
     </table>
-    <h3>Nitrogeno</h3>
+    <h3 class = "nitroGraf">Nitrogeno</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_hora_nitro"></div></td>
+        <td><div id="chart_hora_nitro" class= "grafica6"></div></td>
       </tr>
     </table>
   </body>

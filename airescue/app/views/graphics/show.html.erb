@@ -3,14 +3,15 @@
     <!--Load the AJAX API-->
     <div class="encabezado">
       <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
+      <%= link_to "Estadisticas diarias", day_graphic_path(@node), class: "estSem", style: 'color:#FFFFFF;'%>
       <% if user_signed_in? %>
         <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
         <%= link_to '', new_node_path, class: "agregarNodo" %>
         <br>
-    <%else%>
+      <%else%>
         <%= link_to "Iniciar sesion", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
-    <%end%>
-  </div>
+      <%end%>
+    </div>
     
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -167,7 +168,7 @@
     <h3 class = "dioGraf">Dióxido de carbono</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_week_Carbon_dioxides" class= "grafica2"></div></td>
+        <td><div id="chart_week_Carbon_dioxides" class= "grafica2" title=""></div></td>
       </tr>
     </table>
     <h3 class = "monoGraf">Monóxido de carbono</h3>

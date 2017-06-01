@@ -41,7 +41,7 @@ html, body {
 .nitroGraf{
   position: absolute;
   top: 540px;
-  left: 1000px;
+  left: 1070px;
   
 }
 
@@ -79,10 +79,8 @@ html, body {
 .grafica6{
   position: absolute;
   top: 590px;
-  left: 920px;
+  left: 940px;
 }
-  
-
   
 .FondoBlanco {
   background-color: white; }
@@ -243,7 +241,24 @@ html, body {
   left: 1180px;
   color: black;
   font-size: 1.4em;
-  text-align: center; }
+  text-align: center; 
+  
+}
+  
+.estSem{
+  margin: 0px;
+  position: absolute;
+  top: 38px;
+  right: 270px;
+  color: #66FF66;
+  font-size: 1.4em;
+  text-align: center; 
+  
+}
+
+.estSem:hover{
+  background-color: #48A548;
+}
 
 .cerrarSesion:hover {
   background-color: #48A548;
@@ -610,10 +625,12 @@ html, body {
   position: absolute;
   top: 50px;
   left: 975px;
+  background-color: #48A548;
   margin: 0px; }
 
 .var:hover {
-  background-color: #ededed;
+  background-color: #48A548;
+  background: #48A548;
   color: black;
   text-decoration: #ededed; 
     
@@ -649,3 +666,28 @@ html, body {
 
 .contactanos {
   text-align: center; }
+  
+.imageICA{
+  background-image: url('./PuntosDeCorteICA.png');
+  width: 670px;
+  height: 380px; 
+  background-repeat: no-repeat;
+}
+
+.modal-dialog{
+  width: 670px;
+  height: 380px;
+}
+
+.botonICA{
+  position: absolute;
+  background-color: white;
+  font-size: 1.9em;
+  top: 150px;
+  left: 1210px;
+  width: 70px;
+  height: 55px;
+  text-decoration: underline;
+  
+}
+

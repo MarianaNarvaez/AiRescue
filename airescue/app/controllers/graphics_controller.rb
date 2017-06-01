@@ -7,6 +7,7 @@ class GraphicsController < ApplicationController
         @ozone = Ozone.where(node_id: params[:id])
         @humed = Humidity.where(node_id: params[:id])
         @nitrogen = Nitrogen.where(node_id: params[:id])
+        @node = Node.find(params[:id])
     end
     def showDay
         @nombre = Node.find_by(id: params[:id]).name
@@ -16,5 +17,6 @@ class GraphicsController < ApplicationController
         @ozone = Ozone.where(node_id: params[:id])
         @humed = Humidity.where(node_id: params[:id])
         @nitrogen = Nitrogen.where(node_id: params[:id])
+        @node = Node.find(params[:id])
     end
 end
