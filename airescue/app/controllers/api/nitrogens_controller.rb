@@ -1,24 +1,18 @@
-class NitrogensController < ApplicationController
+class Api::NitrogensController < ApplicationController
+  skip_before_filter :verify_authenticity_token
   before_action :set_nitrogen, only: [:show, :edit, :update, :destroy]
 
   # GET /nitrogens
   # GET /nitrogens.json
   def index
     @nitrogens = Nitrogen.all
+    render json: @nitrogens
   end
 
   # GET /nitrogens/1
   # GET /nitrogens/1.json
   def show
-  end
-
-  # GET /nitrogens/new
-  def new
-    @nitrogen = Nitrogen.new
-  end
-
-  # GET /nitrogens/1/edit
-  def edit
+     render json: @nitrogens
   end
 
   # POST /nitrogens
@@ -26,39 +20,28 @@ class NitrogensController < ApplicationController
   def create
     @nitrogen = Nitrogen.new(nitrogen_params)
 
-    respond_to do |format|
+   
       if @nitrogen.save
-        format.html { redirect_to @nitrogen, notice: 'Nitrogen was successfully created.' }
-        format.json { render :show, status: :created, location: @nitrogen }
+        render json:  @nitrogen, status: :created, location: @nitrogen
       else
-        format.html { render :new }
-        format.json { render json: @nitrogen.errors, status: :unprocessable_entity }
+        render json: @nitrogen.errors, status: :unprocessable_entity 
       end
-    end
   end
 
   # PATCH/PUT /nitrogens/1
   # PATCH/PUT /nitrogens/1.json
   def update
-    respond_to do |format|
       if @nitrogen.update(nitrogen_params)
-        format.html { redirect_to @nitrogen, notice: 'Nitrogen was successfully updated.' }
-        format.json { render :show, status: :ok, location: @nitrogen }
+         render json @nitrogen
       else
-        format.html { render :edit }
-        format.json { render json: @nitrogen.errors, status: :unprocessable_entity }
+        render json: @nitrogen.errors, status: :unprocessable_entity
       end
-    end
   end
 
   # DELETE /nitrogens/1
   # DELETE /nitrogens/1.json
   def destroy
     @nitrogen.destroy
-    respond_to do |format|
-      format.html { redirect_to nitrogens_url, notice: 'Nitrogen was successfully destroyed.' }
-      format.json { head :no_content }
-    end
   end
 
   private
@@ -69,6 +52,6 @@ class NitrogensController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def nitrogen_params
-      params.require(:nitrogen).permit(:dataNitrogen, :node_id)
+      params.permit(:dataNitrogen, :node_id)
     end
 end

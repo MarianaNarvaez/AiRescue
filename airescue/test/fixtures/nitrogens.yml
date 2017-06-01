@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  dataNitrogen: MyString
+  dataNitrogen: 1.5
   node: one
 
 two:
-  dataNitrogen: MyString
+  dataNitrogen: 1.5
   node: two

@@ -181,12 +181,12 @@
 </div>
 <div class="oval-half-red6">
     <div class="letraVar">
-        <% unless @temp.nil? %>
-            <%= @temp.dateTemperature %>  °C
+        <% unless @nitrogen.nil? %>
+            <%= @nitrogen.dataNitrogen %>  ppm
         <%end%>
         
-        <% if @temp.nil? %>
-            <h> °C </h>
+        <% if @nitrogen.nil? %>
+            <h> ppm </h>
         <%end%>
     </div>
 </div>

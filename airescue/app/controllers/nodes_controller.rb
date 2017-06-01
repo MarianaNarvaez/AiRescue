@@ -17,6 +17,7 @@ class NodesController < ApplicationController
     @ozone = Ozone.where(node_id: params[:id]).last
     @humed = Humidity.where(node_id: params[:id]).last
     @temp = Temperature.where(node_id: params[:id]).last
+    @nitrogen = Nitrogen.where(node_id: params[:id]).last
     
   end
 
