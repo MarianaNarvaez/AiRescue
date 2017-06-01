@@ -6,6 +6,7 @@ class NodesController < ApplicationController
   def index
     @nombreNodes = "Iniciar Sesion"
     @nodes = Node.all
+    @dus = Dust.where(node_id: params[:id]).last
   end
 
   # GET /nodes/1
@@ -18,7 +19,7 @@ class NodesController < ApplicationController
     @humed = Humidity.where(node_id: params[:id]).last
     @temp = Temperature.where(node_id: params[:id]).last
     @nitrogen = Nitrogen.where(node_id: params[:id]).last
-    @dus = Dust.where(node_id: params[:id]).last
+    
     
   end
 
