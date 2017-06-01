@@ -1,6 +1,7 @@
 <html class="FondoBlanco fondoTitle">
     
 <div class="encabezado">
+<meta http-equiv="refresh" content="30"> 
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
         <%= link_to '', edit_node_path(@node) , class:"btn editShow"%>   
