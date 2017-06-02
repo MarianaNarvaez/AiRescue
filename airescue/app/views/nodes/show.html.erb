@@ -3,7 +3,7 @@
 <div class="encabezado">
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
-        <%= link_to '', edit_node_path(@node) , class:"btn editShow"%>   
+        <%= link_to '', edit_node_path(@node) , class:"btn editShow", title: "Editar Nodo"%>   
     <%end%>
 
 <div class="container">
@@ -11,10 +11,10 @@
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog2 modal-sm">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <button type="button"  class="close" data-dismiss="modal" title="Información Nodo">&times;</button>
           <h4 class="modal-title"><%= @node.name %></h4>
         </div>
         <div class="modal-body">
@@ -57,7 +57,7 @@
     
 </div>
 
-<h2 class = "plazaShow">
+<h2 class = "plazaShow" title="Nodo actual">
     <%= @node.name %>
 </h2>
     
@@ -66,39 +66,8 @@
 </br>
 </br>
 
-<div class="container colorContainer">
   
-<button type="button" class="btn  botonInfo" data-toggle="modal" data-target="#myModal">''</button>
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title"><%= @node.name %></h4>
-        </div>
-        <div class="modal-body">
-            <div class= "row tam">
-                <div class="negrita">&#160 &#160 &#160 &#160 Dirección:&#160 &#160 &#160 &#160 &#160 &#160</div>
-                <div><%= @node.address %></div>
-            </div>    
-            <div class= "row tam">
-                <div class="negrita">&#160 &#160 &#160 &#160 Descripción: &#160 &#160 &#160 </div>
-                <div><%= @node.description %></div>
-            </div>
-            <div class= "row tam">
-                <div class="negrita">&#160 &#160 &#160 &#160 Dato: &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 </div>
-                <div> <%= @node.data %></div>
-            </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <button type="button" class="btn botonICA" data-toggle="modal" data-target="#myModal1">ICA</button>
+  <button type="button" class="btn botonICA" data-toggle="modal" data-target="#myModal1" title = "Índice de la Calidad del Aire">ICA</button>
     <div id="myModal1" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">

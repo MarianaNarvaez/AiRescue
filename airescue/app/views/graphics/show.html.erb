@@ -5,11 +5,11 @@
       <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
       <%= link_to "Estadisticas diarias", day_graphic_path(@node), class: "estSem", style: 'color:#FFFFFF;'%>
       <% if user_signed_in? %>
-        <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
-        <%= link_to '', new_node_path, class: "agregarNodo" %>
+        <%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to '', new_node_path, class: "agregarNodo", title: "Agregar Nodo" %>
         <br>
       <%else%>
-        <%= link_to "Iniciar sesion", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to "Iniciar sesión", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
       <%end%>
     </div>
     
@@ -41,6 +41,7 @@
         ]);
           
         var options = {'title':'Reporte Semanal Nodo <%= @nombre%>',
+                       'left' : 200,
                        'width':400,
                        'height':300,
                        hAxis: {title: 'Tiempo'},
@@ -158,41 +159,45 @@
     </script>
   </head>
 
+<h2 class="tituloEstSem">
+  Estadisticas Semanales
+</h2>
   <body>
     <h3 class = "temGraf">Temperatura</h3>
     <table class="columns">
       <tr>
-        <td>  <div id="chart_week_temp" class= "grafica1"></div> </td>
+        <td>  <div id="chart_week_temp" class= "grafica1" title="Temperatura"></div> </td>
       </tr>
     </table>
     <h3 class = "dioGraf">Dióxido de carbono</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_week_Carbon_dioxides" class= "grafica2" title=""></div></td>
+        <td><div id="chart_week_Carbon_dioxides" class= "grafica2" title="Dióxido de carbono"></div></td>
       </tr>
     </table>
+    <hr />
     <h3 class = "monoGraf">Monóxido de carbono</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_week_carbon_monoxides" class= "grafica3"></div></td>
+        <td><div id="chart_week_carbon_monoxides" class= "grafica3" title="Monóxido de carbono"></div></td>
       </tr>
     </table>
     <h3 class = "humGraf">Humedad</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_week_Humed" class= "grafica4"></div></td>
+        <td><div id="chart_week_Humed" class= "grafica4" title="Humedad" ></div></td>
       </tr>
     </table>
     <h3 class = "ozoGraf">Ozono</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_week_Ozone" class= "grafica5"></div></td>
+        <td><div id="chart_week_Ozone" class= "grafica5" title="Ozono"></div></td>
       </tr>
     </table>
-    <h3 class = "nitroGraf">Nitrogeno</h3>
+    <h3 class = "nitroGraf">Nitróogeno</h3>
     <table class="columns">
       <tr>
-        <td><div id="chart_week_nitro" class= "grafica6"></div></td>
+        <td><div id="chart_week_nitro" class= "grafica6" title="Nitrogeno"></div></td>
       </tr>
     </table>
   </body>

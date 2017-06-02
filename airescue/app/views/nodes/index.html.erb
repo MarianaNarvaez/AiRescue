@@ -5,11 +5,11 @@
 <div class="encabezado">
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
-        <%= link_to "cerrar sesion", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
-        <%= link_to '', new_node_path, class: "agregarNodo" %>
+        <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to '', new_node_path, class: "agregarNodo", title: "Agregar Nodo" %>
         <br>
     <%else%>
-        <%= link_to "Iniciar sesion", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to "Iniciar sesión", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
     <%end%>
     
     
@@ -36,7 +36,7 @@
                 <br>
                 <b>Nombre:</b>  <%= node.name %>
                 <br>
-                <b>Valor:</b> <%= node.data %>
+                <b>Indice:</b> <%= node.data %>
                 <br>
                 <br>
                 <%= link_to 'ver', node_path(node), style: 'color:#FFFFFF;', class:"btn botonesNodos" %>

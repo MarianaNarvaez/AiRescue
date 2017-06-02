@@ -12,74 +12,122 @@ html, body {
 .box:hover a{opacity:0.8; background:#FFFFFF; color:#000000; margin:-40px 0px 0px 15px;  border-radius:1px; }
 .box a:hover{border:1px solid #00DFDF;transition:all 0.5s ease-in-out;   }
 
-.temGraf{
+.tituloEstSem{
   position: absolute;
-  top: 150px;
+  top: 125px;
+  left: 38%;
+}
+
+.tituloEstDay{
+  position: absolute;
+  top: 125px;
+  left: 40%;
+  
+}
+
+.temGraf{
+  color: #48A548;
+  position: absolute;
+  top: 210px;
   left: 160px;
 }
 .dioGraf{
+  color: #48A548;
   position: absolute;
-  top: 150px;
+  top: 210px;
   left: 560px;
 }
 .monoGraf{
+  color: #48A548;
   position: absolute;
-  top: 150px;
+  top: 210px;
   left: 1000px;
 }
 .humGraf{
+  color: #48A548;
   position: absolute;
-  top: 540px;
+  top: 600px;
   left: 160px;
 }
 .ozoGraf{
+  color: #48A548;
   position: absolute;
-  top: 540px;
+  top: 600px;
   left: 620px;
   
 }
 .nitroGraf{
+  color: #48A548;
   position: absolute;
-  top: 540px;
+  top: 600px;
   left: 1070px;
   
 }
 
 .grafica1{
   position: absolute;
-  top: 210px;
+  background-color: #48A548;
+  background: #48A548; 
+  top: 270px;
   left: 35px;
+}
+.grafica1:hover{
+  transition: 0.5s;
+  left: 70px;
 }
 
 .grafica2{
   position: absolute;
-  top: 210px;
+  top: 270px;
   left: 460px;
 
+}
+.grafica2:hover{
+  transition: 0.5s;
+  left: 505px;
 }
 
 .grafica3{
   position: absolute;
-  top: 210px;
+  top: 270px;
   left: 920px;
+}
 
+.grafica3:hover{
+  transition: 0.5s;
+  left: 940px;
 }
 
 .grafica4{
   position: absolute;
-  top: 590px;
+  top: 650px;
   left: 35px;
+}
+
+.grafica4:hover{
+  transition: 0.5s;
+  left: 70px;
 }
 
 .grafica5{
   position: absolute;
-  top: 590px;
+  top: 650px;
   left: 460px;
 }
+
+.grafica5:hover{
+  transition: 0.5s;
+  left: 490px;
+}
+
 .grafica6{
   position: absolute;
-  top: 590px;
+  top: 650px;
   left: 940px;
+}
+.grafica6:hover{
+  transition: 0.5s;
+  left: 960px;
 }
   
 .FondoBlanco {
@@ -677,6 +725,14 @@ html, body {
 .modal-dialog{
   width: 670px;
   height: 380px;
+}
+
+.modal-dialog2{
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  width: 370px;
+  height: 230px;
 }
 
 .botonICA{
