@@ -5,13 +5,8 @@
 <div class="encabezado">
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
-<<<<<<< HEAD
         <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
         <%= link_to '', new_node_path, class: "agregarNodo", title: "Agregar Nodo" %>
-=======
-        <%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
-        <%= link_to '', new_node_path, class: "agregarNodo" %>
->>>>>>> 6cc65c3a894d67719f56c0f36258db6c2f2d194b
         <br>
     <%else%>
         <%= link_to "Iniciar sesión", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
@@ -41,8 +36,15 @@
                 <br>
                 <b>Nombre:</b>  <%= node.name %>
                 <br>
-                <b>Valor:</b> <%= node.dust.last.dataDust %>
-
+                
+                <% unless node.dust.last.nil? %>
+                <b>Valor:</b> <%= node.dust.last.dataDust %>  ppm
+                <%end%>
+        
+                <% if node.dust.last.nil? %>
+                <b>Valor:</b> <h>0 ppm </h>
+                <%end%>
+                
                 <br>
                 <br>
                 <%= link_to 'ver', node_path(node), style: 'color:#FFFFFF;', class:"btn botonesNodos" %>

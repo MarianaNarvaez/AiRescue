@@ -1,7 +1,7 @@
 <html class="FondoBlanco fondoTitle">
     
 <div class="encabezado">
-<meta http-equiv="refresh" content="30"> 
+ 
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
         <%= link_to '', edit_node_path(@node) , class:"btn editShow", title: "Editar Nodo"%>   
@@ -29,7 +29,14 @@
             </div>
             <div class= "row tam">
                 <div class="negrita">&#160 &#160 &#160 &#160 Dato: &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 </div>
-                <div> <%= @dus.dataDust %></div>
+                <div>
+                <% unless @dus.nil? %>
+                    <%= @dus.dataDust %>  ppm
+                <%end%>
+        
+                <% if @dus.nil? %>
+                    <h>0 ppm </h>
+                <%end%>
             </div>
         </div>
         <div class="modal-footer">
@@ -168,7 +175,7 @@
         <%end%>
         
         <% if @nitrogen.nil? %>
-            <h> ppm </h>
+            <h>0 ppm </h>
         <%end%>
     </div>
 </div>
