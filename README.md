@@ -1,8 +1,24 @@
-# AirRescue
-Descripcion: AirRescue es un proyecto que utiliza loT para capturar datos en tiempo real de variables importantes del aire, con el fin de mirar el comportamiento de este y a partir de los datos capturados poder hacer un analisis del estado actual del aire.
+# README
 
-Instalacion: 
-Para la instalacion de este proyecto es necesario contar con lo siguinte:
-- Rails 5.0.2
-- Ruby 2.3
-- Postgresql
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
