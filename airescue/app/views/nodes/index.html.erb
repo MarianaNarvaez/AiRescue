@@ -5,8 +5,13 @@
 <div class="encabezado">
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
+<<<<<<< HEAD
         <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
         <%= link_to '', new_node_path, class: "agregarNodo", title: "Agregar Nodo" %>
+=======
+        <%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+        <%= link_to '', new_node_path, class: "agregarNodo" %>
+>>>>>>> 6cc65c3a894d67719f56c0f36258db6c2f2d194b
         <br>
     <%else%>
         <%= link_to "Iniciar sesión", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
@@ -36,7 +41,11 @@
                 <br>
                 <b>Nombre:</b>  <%= node.name %>
                 <br>
+<<<<<<< HEAD
                 <b>Indice:</b> <%= node.data %>
+=======
+                <b>Valor:</b> <%= node.dust.last.dataDust %>
+>>>>>>> 6cc65c3a894d67719f56c0f36258db6c2f2d194b
                 <br>
                 <br>
                 <%= link_to 'ver', node_path(node), style: 'color:#FFFFFF;', class:"btn botonesNodos" %>
@@ -58,10 +67,10 @@
 <div class="contactanos">
     <div>E-mail: airescue@gmail.com
         </br>
-        Telefono: 4322334 ext: 453 &#160
+        Teléfono: 4322334 ext: 453 &#160
         Whatsapp: 3217166950
         </br>
-        Direccion: Crr 29 CC # 37-09 
+        Dirección: Crr 29 CC # 37-09 
         </br>
         Universidad EAFIT
     </div>

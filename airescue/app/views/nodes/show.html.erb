@@ -1,6 +1,7 @@
 <html class="FondoBlanco fondoTitle">
     
 <div class="encabezado">
+<meta http-equiv="refresh" content="30"> 
     <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
     <% if user_signed_in? %>
         <%= link_to '', edit_node_path(@node) , class:"btn editShow", title: "Editar Nodo"%>   
@@ -28,7 +29,7 @@
             </div>
             <div class= "row tam">
                 <div class="negrita">&#160 &#160 &#160 &#160 Dato: &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 </div>
-                <div> <%= @node.data %></div>
+                <div> <%= @dus.dataDust %></div>
             </div>
         </div>
         <div class="modal-footer">
@@ -47,11 +48,11 @@
     </p>
                 
     <div class="dropdown est">
-        <button class="btn dropEst" id="menu1" data-toggle="dropdown">Estadisticas
+        <button class="btn dropEst" id="menu1" data-toggle="dropdown">Estadísticas
         <span class="caret"></span></button>
         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-            <li role="presentation"><a role="menuitem" href="<%=week_graphic_path(@node)%>">Estadisticas semanales</a></li>
-            <li role="presentation"><a role="menuitem" href="<%=day_graphic_path(@node)%>">Estadisticas diarias</a></li>
+            <li role="presentation"><a role="menuitem" href="<%=week_graphic_path(@node)%>">Estadísticas semanales</a></li>
+            <li role="presentation"><a role="menuitem" href="<%=day_graphic_path(@node)%>">Estadísticas diarias</a></li>
         </ul>
     </div>
     
@@ -158,7 +159,7 @@
 </div>
 
 <div class="hcho">
-       Nitrogeno
+       Nitrógeno
 </div>
 <div class="oval-half-red6">
     <div class="letraVar">

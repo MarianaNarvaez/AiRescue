@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Dusts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Datadust</th>
+      <th>Node</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dusts.each do |dust| %>
+      <tr>
+        <td><%= dust.dataDust %></td>
+        <td><%= dust.node %></td>
+        <td><%= link_to 'Show', dust %></td>
+        <td><%= link_to 'Edit', edit_dust_path(dust) %></td>
+        <td><%= link_to 'Destroy', dust, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Dust', new_dust_path %>

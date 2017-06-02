@@ -3,10 +3,14 @@
     <!--Load the AJAX API-->
     <div class="encabezado">
       <p class = "tituloNodos"><%= link_to "AiRescue", root_path, style: 'color:#FFFFFF;', class: "tituloNodos"%></p>
-      <%= link_to "Estadisticas diarias", day_graphic_path(@node), class: "estSem", style: 'color:#FFFFFF;'%>
+      <%= link_to "Estadísticas diarias", day_graphic_path(@node), class: "estSem", style: 'color:#FFFFFF;'%>
       <% if user_signed_in? %>
         <%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
+<<<<<<< HEAD
         <%= link_to '', new_node_path, class: "agregarNodo", title: "Agregar Nodo" %>
+=======
+        <%= link_to '', new_node_path, class: "agregarNodo" %>
+>>>>>>> 6cc65c3a894d67719f56c0f36258db6c2f2d194b
         <br>
       <%else%>
         <%= link_to "Iniciar sesión", new_user_session_path, style: 'color:#FFFFFF;', class: "cerrarSesion" %>
@@ -194,7 +198,11 @@
         <td><div id="chart_week_Ozone" class= "grafica5" title="Ozono"></div></td>
       </tr>
     </table>
+<<<<<<< HEAD
     <h3 class = "nitroGraf">Nitróogeno</h3>
+=======
+    <h3 class = "nitroGraf">Nitrógeno</h3>
+>>>>>>> 6cc65c3a894d67719f56c0f36258db6c2f2d194b
     <table class="columns">
       <tr>
         <td><div id="chart_week_nitro" class= "grafica6" title="Nitrogeno"></div></td>
